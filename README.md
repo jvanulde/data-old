@@ -50,8 +50,6 @@
 
 Note this manual integration of Leaflet was taken from: https://robyremzy.github.io/blog/2016/leaflet-inside-a-post/
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -66,6 +64,12 @@ See the [open issues](https://github.com/OpenDRR/data/issues) for a list of prop
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+### Prerequisites
+
+* GitLFS installed (https://git-lfs.github.com)
+
+### Steps
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -89,9 +93,8 @@ Project Link: [https://github.com/OpenDRR/data](https://github.com/OpenDRR/data)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
 * [Web Experience Toolkit](https://github.com/wet-boew/wet-boew)
 * [Jekyll Data Pages Generator](https://github.com/avillafiorita/jekyll-datapage_gen)
 * [Leaflet](https://leafletjs.com/)
 * [GitHub Pages](https://pages.github.com)
-
-

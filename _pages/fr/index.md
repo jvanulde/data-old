@@ -31,6 +31,12 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
 <section>
 
+    {% if site.baseurl =='' %}
+        {% assign lfs_path = '' %}
+    {% else %}
+        {% assign lfs_path = site.lfs_data_url %}
+    {% endif %}
+
     {% for folder in site.static_files %}
     {% if folder.path contains '/data/' %}
         {% assign my_array = folder.path | split: "/" %}
@@ -71,7 +77,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
         
         {% for folder in site.static_files %}
 
-            {% if folder.path contains p %}
+            {% if folder.path contains p and folder.extname == '.zip' %}
 
                 {% assign geom = "" %}
                 {% assign icon = "" %}
@@ -97,10 +103,10 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                           <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                       </td>
                       <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
-                      <td><span class="label label-default">{{ folder.extname }}</span></td>
+                      <td><span class="label label-default">.gpkg</span></td>
                       <td>
                           <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                          <a class="btn btn-primary btn-sm pull-right" href="https://www.github.com/OpenDRR/data/raw/main{{ folder.path }}">Téléchargement</a>
+                          <a class="btn btn-primary btn-sm pull-right" href="{{ lfs_path }}{{ folder.path }}">Téléchargement</a>
                       </td>
                   </tr>
 
@@ -131,7 +137,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
             
                 {% for folder in site.static_files %}
 
-                    {% if folder.path contains path and folder.path contains p and folder.path contains '/er/' %}
+                    {% if folder.path contains path and folder.path contains p and folder.path contains '/er/' and folder.extname == '.zip' %}
 
                         {% assign geom = "" %}
                         {% assign icon = "" %}
@@ -155,10 +161,10 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                                 <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>{{ geom }}</span>
                             </td>
                             <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
-                            <td><span class="label label-default">{{ folder.extname }}</span></td>
+                            <td><span class="label label-default">.gpkg</span></td>
                             <td>
                                 <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                                <a class="btn btn-primary btn-sm pull-right" href="https://www.github.com/OpenDRR/data/raw/main{{ folder.path }}">Téléchargement</a>
+                                <a class="btn btn-primary btn-sm pull-right" href="{{ lfs_path }}{{ folder.path }}">Téléchargement</a>
                             </td>
                         </tr>
                     {% endif %}
