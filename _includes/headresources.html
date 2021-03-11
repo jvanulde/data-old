@@ -26,3 +26,13 @@
             "description": "{% if page.description[page.lang] %}{{ page.description[page.lang] }}{% else %}{{ site.site-description[page.lang] }} {% endif %}"
         }
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-19T5RKNSMJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-19T5RKNSMJ');
+    </script>
