@@ -16,4 +16,4 @@
 
 - Each indicator in an economic region will now have a zipped file format for download.
 - Map legends are now being served within the map from the [Map Server](https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer)
-- Switching the config.yaml file as the single source of truth and pulling layer data into the application via API
+- Carousel to key website features on the homepage
