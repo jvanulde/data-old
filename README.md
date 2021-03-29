@@ -2,8 +2,8 @@
 
 1. ** Clone the repo **
     ```shell
-    git clone https://github.com/michaelbrian93/opendrr-geospatial.git
-    cd opendrr-geospatial
+    git clone https://github.com/OpenDRR/data.git
+    cd data
     yarn install // npm install
     gatsby develop
     ```
