@@ -47,9 +47,11 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
     {% assign paths = paths | split: "," | uniq %}
     {% assign eruids = eruids | split: "," | uniq %}
 
+    <div class="row">
     {% for prov in provs %}
-    <a href="#{{ prov }}" style="text-transform:uppercase">{{ prov }}</a> 
+    <div class="col-md-3"><a href="#{{ prov }}" class="prov_name {{ prov }} fr"><span>{{ prov }}</span></a></div>
     {% endfor %}
+    </div>
     
     {% for prov in provs %}
 
@@ -59,7 +61,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
         <a name="{{ prov }}"></a>
 
-        <h3 style="text-transform:uppercase">{{ prov }}</h3>
+        <h3 class="prov_name {{ prov }} fr"><span>{{ prov }}</span></h3>
 
         <table class="table">
           <tr>
@@ -110,7 +112,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
         {% endfor %}
         </table>
 
-        <h4>Economic Regions</h4>
+        <h4>Régions économiques</h4>
         <table class="table table-hover">
 
         {% assign eruid = "" %}

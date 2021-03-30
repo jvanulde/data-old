@@ -47,10 +47,12 @@ Currently only GeoPackage (.gpkg) format is provided.
     {% assign paths = paths | split: "," | uniq %}
     {% assign eruids = eruids | split: "," | uniq %}
 
+    <div class="row">
     {% for prov in provs %}
-    <a href="#{{ prov }}" style="text-transform:uppercase">{{ prov }}</a> 
+    <div class="col-md-3"><a href="#{{ prov }}" class="prov_name {{ prov }} en"><span>{{ prov }}</span></a></div>
     {% endfor %}
-    
+    </div>
+
     {% for prov in provs %}
 
         {% assign p = prov | append: '/' %}
@@ -59,7 +61,7 @@ Currently only GeoPackage (.gpkg) format is provided.
 
         <a name="{{ prov }}"></a>
 
-        <h3 style="text-transform:uppercase">{{ prov }}</h3>
+        <h3 class="prov_name {{ prov }} en"><span>{{ prov }}</span></h3>
 
         <table class="table table-hover">
           <tr>
