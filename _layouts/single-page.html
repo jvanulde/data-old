@@ -1,0 +1,264 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html class="no-js" lang="{{ page.lang | default: 'en' }}" dir="{{ page.i18n.tmpl-lang-dir[page.lang] }}">
+  <head>
+    <meta charset="utf-8">
+    {% include license.html %}
+    <title>{{ page.title }}</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    {% include metadata.html %}
+    {% include headresources.html %}
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin="" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"
+      integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@ngageoint/leaflet-geopackage@3.0.3/dist/leaflet-geopackage.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/classybrew.min.js"></script>
+    
+    <script>
+      $( document ).ready(function() {
+
+        return false;
+
+        var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
+        });
+
+        var map = L.map( 'map', { layers: [tiles] } ),
+          filter = null,
+          indicator = "Mht_CensusPop",
+          gpkg;
+
+        var legend = L.control( { position: 'bottomright' } );
+
+        map.setView( [65, -106], 3 );
+
+        L.Layer.include({
+          getProps: function () {
+            var feature = this.feature = this.feature || {}; // Initialize the feature, if missing.
+            feature.type = 'Feature';
+            feature.properties = feature.properties || {}; // Initialize the properties, if missing.
+            return feature.properties;
+          }
+        });
+
+        $( '.map-link' ).on( 'click', function( evt ) {
+
+          // evt.preventDefault();
+
+          if ( gpkg ) { 
+            map.removeLayer( gpkg );
+          }
+
+          var geoPackageUrl = $( this ).attr( 'data' );
+          
+          gpkg = L.geoPackageFeatureLayer( [], {
+            geoPackageUrl: geoPackageUrl,
+            layerName: 'sql_statement',
+            filter: function ( feature, layer ) {
+              if ( !filter ) {
+                return true;
+              }
+              if ( feature.properties[ filter.property ] == filter.value ) { return  'true' }
+            },
+            style: brewStyle,
+            onEachFeature: onEachFeature
+          });
+
+          gpkg.on( 'click', function ( e ) {
+            var source = e.sourceTarget;
+            var props = source.getProps();
+
+            var ignore = [
+              'fid',
+              'Sauid',
+              'pruid',
+              'prname',
+              'eruid',
+              'ername',
+              'cduid',
+              'cdname',
+              'csduid',
+              'csdname',
+              'SauidLon',
+              'SauidLat'
+            ];
+
+            let string = '';
+            for ( const key in props ) {
+              if ( ignore.includes( key ) ) { 
+                continue;
+              }
+
+              var cls = key.split("_")[0].toLowerCase();
+
+              string +=
+                '<div class="item col-md-3 small"><span class="prop ' + cls + '">' + key + '</span><span class="val pull-right">' + props[key] + '</span></div>';
+            }
+          
+            $( '#sidebar' ).html( string );
+
+          });
+
+          gpkg.on( 'add', function( evt ) { 
+            postLayerAdd();
+          }); 
+
+          gpkg.addTo( map );
+
+        });
+
+        function zoomToExtent( layer ) {
+          if ( !gpkg.geoPackageLoaded ) {
+            setTimeout( zoomToExtent, 100 );
+          } else {
+            map.fitBounds( gpkg.getBounds() );
+          }
+        }
+
+        // create classybrew object
+        // See: http://tannerjt.github.io/classybrew-www/examples/basic/
+        //      https://github.com/tannerjt/classybrew
+        var brew = new classyBrew(),
+            values = [];
+          
+        // function changeIndicator( indctr ) {
+        //   console.log( indctr );
+        // }
+
+        // style function to return
+        // fill color based on brew.getColorInRange() method
+        function brewStyle( feature ) {
+            return {
+                weight: 2,
+                opacity: 1,
+                color: '#333',
+                dashArray: '1',
+                fillOpacity: 0.7,
+                fillColor: brew.getColorInRange( feature.properties[ indicator ] )
+            }
+        }
+
+        function postLayerAdd( layer ) {
+          if ( !gpkg.geoPackageLoaded ) {
+            setTimeout( postLayerAdd, 100 );
+          } else {
+            map.fitBounds( gpkg.getBounds() );
+            
+            for ( lyr in gpkg._layers ) {
+              var feature = gpkg._layers[ lyr ].feature;
+              if ( feature.properties[ indicator ] == null ) continue;
+              values.push( feature.properties[ indicator ] );
+            }
+          }
+
+          brew.setSeries( values );
+          
+          // define number of classes
+          brew.setNumClasses( 6 );
+            
+          // set color ramp code
+          // e.g. Greens, Blues, Oranges, Purples, Greys, Reds
+          brew.setColorCode( "Purples" );
+            
+          // classify by passing in statistical method
+          // i.e. equal_interval, jenks, quantile
+          brew.classify( "equal_interval" );
+
+          gpkg.setStyle( brewStyle );
+
+          legend.onAdd = function ( map ) {
+
+            var div = L.DomUtil.create('div', 'info legend');
+
+            if ( values.length === 0 ) { 
+              return L.DomUtil.create('div'); 
+            }
+          
+            if ( indicator ) {
+            
+              var breaks = brew.getBreaks(),
+                  colors = brew.getColors();
+                  
+              // div.innerHTML += '<p><center><strong>' + indicators[ indicator ].title['en'] + '</strong></center></p>';
+              div.innerHTML += '<p><center><strong>' + indicator + '</strong></center></p>';
+
+              for ( var i = 0; i < breaks.length; i++ ) {
+                  if ( !breaks[i + 1] ) { continue; }
+                  div.innerHTML +=
+                      '<i style="background:' + colors[i] + '"></i> ' +
+                      breaks[i].toFixed(6) + '&ndash;' + breaks[i + 1].toFixed(6) + '<br>';
+              }
+
+              return div;
+            }
+          };
+
+          legend.addTo( map );
+
+        }
+
+        function highlightFeature(e) {
+          var layer = e.target;
+
+          layer.setStyle({
+              fillColor: 'red',
+              fillOpacity: 0.7
+          });
+
+          if ( !L.Browser.ie && !L.Browser.opera && !L.Browser.edge ) {
+              layer.bringToFront();
+          }
+        }
+
+        function resetHighlight(e) {
+          gpkg.resetStyle(e.target);
+        }
+
+        function zoomToFeature(e) {
+          map.fitBounds( e.target.getBounds() );
+        }
+
+        function onEachFeature( feature, layer ) {
+          layer.on({
+              mouseover: highlightFeature,
+              mouseout: resetHighlight,
+              click: zoomToFeature
+          });
+        }
+
+      });
+
+    </script>
+  </head>
+  <body class="page" vocab="http://schema.org/" typeof="WebPage">
+   
+    {% include skiplinks.html %}
+    {% include header.html %}
+    <!-- Static header ends -->
+    <main property="mainContentOfPage" class="container" typeof="WebPageElement">
+
+      <!-- <div id="map" class="leafmap" style="width: 100%;height:500px;"></div>
+      <div class="row">
+        <div id="sidebar"></div>
+      </div> -->
+
+      {{ content }}
+
+     </main>
+    <!-- Static footer starts -->
+    {% include footer.html %}
+    {% include footerresources.html %}
+  </body>
+</html>
+
+
