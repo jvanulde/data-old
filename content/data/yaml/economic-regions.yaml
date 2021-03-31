@@ -1,0 +1,2565 @@
+- path: "/economic-regions/Camrose-Drumheller"
+  content:
+    - title: "Camrose Drumheller"
+  aggregateData:
+    - item: "Assets: $60,276M"
+    - item: "Buildings: 78,383"
+    - item: "People: 204,178"
+    - item: "Neighbourhoods: 35,839"
+    - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+      - link: "/downloads/Camrose-Drumheller"
+  keywords:
+    - economic region
+  scenarioRupture: Scenario Rupture
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [53.02, -112.82]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+    - focus:
+        scenarioHazard:
+          scenarioRupture:
+            url:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+          scenarioHazard:
+            url:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+          scenarioHazardThreat:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+        buildingPerformance:
+          damageState:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+          functionalState:
+            url:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+          recovery:
+            url:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+        affectedPeople:
+          casualties:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+          socialDisruption:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+        economicSecurity:
+          economicLoss:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+        disasterRiskReduction:
+          partialRetrofit:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+          fullRetrofit:
+            leaflet: true
+            latlng: [53.02, -112.82]
+            zoom: 10
+            layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+            featureClass: Sauid
+            url:
+- path: "/economic-regions/Red-Deer"
+  content:
+    - title: "Red Deer"
+  aggregateData:
+    - item: "Assets: $51,011M"
+    - item: "Buildings: 67,446"
+    - item: "People: 209,446"
+    - item: "Neighbourhoods: 21,135"
+    - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Red-Deer"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [52.26, -113.81]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [52.26, -113.81]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+- path: "/economic-regions/Calgary"
+  content:
+      - title: "Calgary"
+  aggregateData:
+   - item: "Assets: $324,577M"
+   - item: "Buildings: 409,744"
+   - item: "People: 1,497,614"
+   - item: "Neighbourhoods: 64,435"
+   - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Calgary"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [51.04, -114.07]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [51.04, -114.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+- path: "/economic-regions/Banff-Jasper-Rocky-Mountain-House"
+  content:
+    - title: "Banff Jasper Rocky Mountain House"
+  aggregateData:
+   - item: "Assets: $23,933M"
+   - item: "Buildings: 29,205"
+   - item: "People: 88,710"
+   - item: "Neighbourhoods: 13,159"
+   - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Banff-Jasper-Rocky-Mountain-House"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [52.88, -118.07]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [52.88, -118.07]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+- path: "/economic-regions/Lethbridge-Medicine-Hat"
+  content:
+    - title: "Lethbridge Medicine Hat"
+  aggregateData:
+   - item: "Assets: $76,772M"
+   - item: "Buildings: 97,862"
+   - item: "People: 291,333"
+   - item: "Neighbourhoods: 26,842"
+   - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Lethbridge-Medicine-Hat"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [50.00, -112.00]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [50.00, -112.00]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+- path: "/economic-regions/Wood-Buffalo-Cold-Lake"
+  content:
+    - title: "Wood Buffalo Cold Lake"
+  aggregateData:
+   - item: "Assets: $31,265M"
+   - item: "Buildings: 42,988"
+   - item: "People: 141,070"
+   - item: "Neighbourhoods: 15,289"
+   - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Wood-Buffalo-Cold-Lake"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [56.72, -111.38]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [56.72, -111.38]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+- path: "/economic-regions/Edmonton"
+  content:
+    - title: "Edmonton"
+  aggregateData:
+    - item: "Assets: $311,949M"
+    - item: "Buildings: 374,341"
+    - item: "People: 1,365,478"
+    - item: "Neighbourhoods: 69,394"
+    - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+    - link: "/downloads/Edmonton"
+  keywords:
+    - data
+    - economic region
+  terms_of_service: null
+  url: https://github.com/OpenDRR
+  license:
+    name: CC-BY 4.0 license
+    url: https://creativecommons.org/licenses/by/4.0/
+  leaflet: true
+  latlng: [53.53, -113.48]
+  zoom: 10
+  layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+  featureClass: Sauid
+  context:
+   - focus:
+      scenarioHazard:
+        scenarioRupture:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazard:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        scenarioHazardThreat:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      buildingPerformance:
+        damageState:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        functionalState:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        recovery:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      affectedPeople:
+        casualties:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        socialDisruption:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      economicSecurity:
+        economicLoss:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+      disasterRiskReduction:
+        partialRetrofit:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+        fullRetrofit:
+          leaflet: true
+          latlng: [53.53, -113.48]
+          zoom: 10
+          layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+          featureClass: Sauid
+          url:
+
+
+
+
+- path: "/economic-regions/Athabasca-Grande-Prairie-Peace-River"
+  content:
+    - title: "Athabasca Grande Prairie Peace River"
+  aggregateData:
+  - item: "Assets: $72,287M"
+  - item: "Buildings: 96,462"
+  - item: "People: 267,080"
+  - item: "Neighbourhoods: 44,175"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Athabasca-Grande-Prairie-Peace-River"
+
+- path: "/economic-regions/Kootenay"
+  content:
+    - title: "Kootenay"
+  aggregateData:
+  - item: "Assets: $53,219M"
+  - item: "Buildings: 63,941"
+  - item: "People: 151,852"
+  - item: "Neighbourhoods: 17,349"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Kootenay"
+
+- path: "/economic-regions/Nechako"
+  content:
+    - title: "Nechako"
+  aggregateData:
+  - item: "Assets: $15,893M"
+  - item: "Buildings: 15,845"
+  - item: "People: 38,390"
+  - item: "Neighbourhoods: 6,925"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Nechako"
+
+- path: "/economic-regions/Cariboo"
+  content:
+    - title: "Cariboo"
+  aggregateData:
+  - item: "Assets: $61,967M"
+  - item: "Buildings: 60,317"
+  - item: "People: 156,268"
+  - item: "Neighbourhoods: 18,332"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Cariboo"
+
+- path: "/economic-regions/Thompson-Okanagan"
+  content:
+    - title: "Thompson Okanagan"
+  aggregateData:
+  - item: "Assets: $182,430M"
+  - item: "Buildings: 186,339"
+  - item: "People: 544,783"
+  - item: "Neighbourhoods: 43,330"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Thompson-Okanagan"
+
+- path: "/economic-regions/Lower-Mainland-Southwest"
+  content:
+    - title: "Lower Mainland Southwest"
+  aggregateData:
+  - item: "Assets: $784,129M"
+  - item: "Buildings: 562,095"
+  - item: "People: 2,831,708"
+  - item: "Neighbourhoods: 122,512"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Lower-Mainland-Southwest"
+
+- path: "/economic-regions/Vancouver-Island-and-Coast"
+  content:
+    - title: "Vancouver Island and Coast"
+  aggregateData:
+  - item: "Assets: $274,522M"
+  - item: "Buildings: 262,018"
+  - item: "People: 800,225"
+  - item: "Neighbourhoods: 51,295"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Vancouver-Island-and-Coast"
+
+- path: "/economic-regions/North-Coast"
+  content:
+    - title: "North Coast"
+  aggregateData:
+  - item: "Assets: $18,246M"
+  - item: "Buildings: 20,032"
+  - item: "People: 55,174"
+  - item: "Neighbourhoods: 4,995"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/North-Coast"
+
+- path: "/economic-regions/Northeast"
+  content:
+    - title: "Northeast"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Northeast"
+
+
+# ** aggregateData needs updating from this point onwards **
+
+- path: "/economic-regions/Regina-Moose-Mountain"
+  content:
+    - title: "Regina Moose Mountain"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Regina-Moose-Mountain"
+
+- path: "/economic-regions/Red-Deer-SK"
+  content:
+    - title: "Red Deer"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Red-Deer-SK"
+
+- path: "/economic-regions/Swift-Current-Moose-Jaw"
+  content:
+    - title: "Swift Current Moose Jaw"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Swift-Current-Moose-Jaw"
+
+- path: "/economic-regions/Saskatoon-Biggar"
+  content:
+    - title: "Saskatoon Biggar"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Saskatoon-Biggar"
+
+- path: "/economic-regions/Yorkton-Melville"
+  content:
+    - title: "Yorkton Melville"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Yorkton-Melville"
+
+- path: "/economic-regions/Prince-Albert"
+  content:
+    - title: "Prince Albert"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Prince-Albert"
+
+- path: "/economic-regions/Northern"
+  content:
+    - title: "Northern"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Northern"
+
+- path: "/economic-regions/Southeast"
+  content:
+    - title: "Southeast"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Southeast"
+
+- path: "/economic-regions/South-Central"
+  content:
+    - title: "South Central"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/South-Central"
+
+- path: "/economic-regions/Southwest"
+  content:
+    - title: "Southwest"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Southwest"
+
+- path: "/economic-regions/North-Central"
+  content:
+    - title: "North Central"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/North-Central"
+
+- path: "/economic-regions/Winnipeg"
+  content:
+    - title: "Winnipeg"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Winnipeg"
+
+- path: "/economic-regions/Interlake"
+  content:
+    - title: "Interlake"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Interlake"
+
+- path: "/economic-regions/Parklands"
+  content:
+    - title: "Parklands"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Parklands"
+
+- path: "/economic-regions/North"
+  content:
+    - title: "North"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/North"
+
+- path: "/economic-regions/Ottawa"
+  content:
+    - title: "Ottawa"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Ottawa"
+
+- path: "/economic-regions/Kingston-Pembroke"
+  content:
+    - title: "Kingston Pembroke"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Kingston-Pembroke"
+
+- path: "/economic-regions/Muskoka-Kawarthas"
+  content:
+    - title: "Muskoka Kawarthas"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Muskoka-Kawarthas"
+
+- path: "/economic-regions/Toronto"
+  content:
+    - title: "Toronto"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Toronto"
+
+- path: "/economic-regions/Kitchener-Waterloo-Barrie"
+  content:
+    - title: "Kitchener Waterloo Barrie"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Kitchener-Waterloo-Barrie"
+
+- path: "/economic-regions/Hamilton-Niagara-Peninsula"
+  content:
+    - title: "Hamilton Niagara Peninsula"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Hamilton-Niagara-Peninsula"
+
+- path: "/economic-regions/London"
+  content:
+    - title: "London"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/London"
+
+- path: "/economic-regions/Windsor-Sarnia"
+  content:
+    - title: "Windsor Sarnia"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Windsor-Sarnia"
+
+- path: "/economic-regions/Stratford-Bruce-Peninsula"
+  content:
+    - title: "Stratford Bruce Peninsula"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Stratford-Bruce-Peninsula"
+
+- path: "/economic-regions/Northeast"
+  content:
+    - title: "Northeast"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Northeast"
+
+- path: "/economic-regions/Northwest"
+  content:
+    - title: "Northwest"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Northwest"
+
+- path: "/economic-regions/Gasp"
+  content:
+    - title: "Gasp"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Gasp"
+
+- path: "/economic-regions/Bas-Saint-Laurent"
+  content:
+    - title: "Bas-Saint-Laurent"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Bas-Saint-Laurent"
+
+- path: "/economic-regions/Capitale-Nationale"
+  content:
+    - title: "Capitale Nationale"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Capitale-Nationale"
+
+- path: "/economic-regions/Chaudière-Appalaches"
+  content:
+    - title: "Chaudière-Appalaches"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Chaudière-Appalaches"
+
+- path: "/economic-regions/Estrie"
+  content:
+    - title: "Estrie"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Estrie"
+
+- path: "/economic-regions/Center-du-Quebec"
+  content:
+    - title: "Center-du-Quebec"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Center-du-Quebec"
+
+- path: "/economic-regions/Mont"
+  content:
+    - title: "Mont"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Mont"
+
+- path: "/economic-regions/Montreal"
+  content:
+    - title: "Montreal"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Montreal"
+
+- path: "/economic-regions/Laval"
+  content:
+    - title: "Laval"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Laval"
+
+- path: "/economic-regions/Lanaudi"
+  content:
+    - title: "Lanaudi"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Lanaudi"
+
+- path: "/economic-regions/Laurentides"
+  content:
+    - title: "Laurentides"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Laurentides"
+
+- path: "/economic-regions/Outaouais"
+  content:
+    - title: "Outaouais"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Outaouais"
+
+- path: "/economic-regions/Abitibi-Témiscamingue"
+  content:
+    - title: "Abitibi-Témiscamingue"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Abitibi-Témiscamingue"
+
+- path: "/economic-regions/Mauricie"
+  content:
+    - title: "Mauricie"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Mauricie"
+
+- path: "/economic-regions/Saguenay-Lac-Saint-Jean"
+  content:
+    - title: "Saguenay Lac Saint Jean"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Saguenay-Lac-Saint-Jean"
+
+- path: "/economic-regions/Côte-Nord"
+  content:
+    - title: "Côte-Nord"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Côte-Nord"
+
+- path: "/economic-regions/Nord-du-Quebec"
+  content:
+    - title: "Nord du Quebec"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Nord-du-Quebec"
+
+- path: "/economic-regions/Campbellton-Miramichi"
+  content:
+    - title: "Campbellton Miramichi"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Campbellton-Miramichi"
+
+- path: "/economic-regions/Moncton-Richibucto"
+  content:
+    - title: "Moncton-Richibucto"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Moncton-Richibucto"
+
+- path: "/economic-regions/Saint-John-St-Stephen"
+  content:
+    - title: "Saint John St. Stephen"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Saint-John-St-Stephen"
+
+- path: "/economic-regions/Fredericton-Oromocto"
+  content:
+    - title: "Fredericton Oromocto"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Fredericton-Oromocto"
+
+- path: "/economic-regions/Edmundston-Woodstock"
+  content:
+    - title: "Edmundston Woodstock"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Edmundston-Woodstock"
+
+- path: "/economic-regions/Prince-Edward-Island"
+  content:
+    - title: "Prince Edward Island"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Prince-Edward-Island"
+
+- path: "/economic-regions/Cape-Breton"
+  content:
+    - title: "Cape Breton"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Cape-Breton"
+
+- path: "/economic-regions/North-Shore"
+  content:
+    - title: "North Shore"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/North-Shore"
+
+- path: "/economic-regions/Annapolis-Valley"
+  content:
+    - title: "Annapolis Valley"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Annapolis-Valley"
+
+- path: "/economic-regions/Southern"
+  content:
+    - title: "Southern"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Southern"
+
+- path: "/economic-regions/Halifax"
+  content:
+    - title: "Halifax"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Halifax"
+
+- path: "/economic-regions/Avalon-Peninsula"
+  content:
+    - title: "Avalon Peninsula"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Avalon-Peninsula"
+
+- path: "/economic-regions/South-Coast-Burin-Peninsula"
+  content:
+    - title: "South Coast Burin Peninsula"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/South-Coast-Burin-Peninsula"
+
+- path: "/economic-regions/West-Coast-Northern-Peninsula-Labrador"
+  content:
+    - title: "West Coast Northern Peninsula Labrador"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/West-Coast-Northern-Peninsula-Labrador"
+
+- path: "/economic-regions/Notre-Dame-Central-Bonavista-Bay"
+  content:
+    - title: "Notre Dame Central Bonavista Bay"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Notre-Dame-Central-Bonavista-Bay"
+
+- path: "/economic-regions/Yukon"
+  content:
+    - title: "Yukon"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Yukon"
+
+- path: "/economic-regions/Northwest-Territories"
+  content:
+    - title: "Northwest Territories"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Northwest-Territories"
+
+- path: "/economic-regions/Nunavut"
+  content:
+    - title: "Nunavut"
+  aggregateData:
+  - item: "Assets: $26,926M"
+  - item: "Buildings: 24,921"
+  - item: "People: 68,335"
+  - item: "Neighbourhoods: 9,892"
+  - item: "Last Updated: 2020-11-05"
+  downloadsPage:
+  - link: "/downloads/Nunavut"
+
+
+
+
+# - title: Athabasca Grande Prairie Peace River
+#   description:
+#   aggregateData:
+#     assets: "$72,287M"
+#     buildings: "96,462"
+#     people: "267,080"
+#     neighbourhoods: "44,175"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [54.71, -113.28]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [54.71, -113.28]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Kootenay
+#   description:
+#   aggregateData:
+#     assets: "$53,219M"
+#     buildings: "63,941"
+#     people: "151,852"
+#     neighbourhoods: "17,349"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [49.91, -117.49]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [49.91, -117.49]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Nechako
+#   description:
+#   aggregateData:
+#     assets: "$15,893M"
+#     buildings: "15,845"
+#     people: "38,390"
+#     neighbourhoods: "6,925"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [53.91, -122.71]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [53.91, -122.71]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Cariboo
+#   description:
+#   aggregateData:
+#     assets: "$61,967M"
+#     buildings: "60,317"
+#     people: "156,268"
+#     neighbourhoods: "18,332"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [52.40, -123.45]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [52.40, -123.45]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Thompson Okanagan
+#   description:
+#   aggregateData:
+#     assets: "$182,430M"
+#     buildings: "186,339"
+#     people: "544,783"
+#     neighbourhoods: "43,330"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [49.88, -119.43]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [49.88, -119.43]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Lower Mainland Southwest
+#   description:
+#   aggregateData:
+#     assets: "$784,129M"
+#     buildings: "562,095"
+#     people: "2,831,708"
+#     neighbourhoods: "122,512"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [49.05, -122.32]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [49.05, -122.32]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Vancouver Island and Coast
+#   description:
+#   aggregateData:
+#     assets: "$274,522M"
+#     buildings: "262,018"
+#     people: "800,225"
+#     neighbourhoods: "51,295"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [49.24, -123.11]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [49.24, -123.11]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: North Coast
+#   description:
+#   aggregateData:
+#     assets: "$18,246M"
+#     buildings: "20,032"
+#     people: "55,174"
+#     neighbourhoods: "4,995"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [50.20, -122.15]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [50.20, -122.15]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
+# - title: Northeast
+#   description:
+#   aggregateData:
+#     assets: "$26,926M"
+#     buildings: "24,921"
+#     people: "68,335"
+#     neighbourhoods: "9,892"
+#     lastUpdated: 2020-11-05
+#   keywords:
+#     - data
+#     - economic region
+#   terms_of_service: null
+#   url: https://github.com/OpenDRR
+#   license:
+#     name: CC-BY 4.0 license
+#     url: https://creativecommons.org/licenses/by/4.0/
+#   leaflet: true
+#   latlng: [58.80, -122.69]
+#   zoom: 10
+#   layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#   featureClass: Sauid
+#   context:
+#    - focus:
+#       scenarioHazard:
+#         scenarioRupture:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazard:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         scenarioHazardThreat:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       buildingPerformance:
+#         damageState:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         functionalState:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         recovery:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       affectedPeople:
+#         casualties:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         socialDisruption:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       economicSecurity:
+#         economicLoss:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#       disasterRiskReduction:
+#         partialRetrofit:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+#         fullRetrofit:
+#           leaflet: true
+#           latlng: [58.80, -122.69]
+#           zoom: 10
+#           layer: /assets/data/afm7p2_lrdmf_casualties_sauid.geojson
+#           featureClass: Sauid
+#           url:
+
