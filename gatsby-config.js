@@ -14,18 +14,12 @@ module.exports = {
     `gatsby-plugin-modal-routing`,
     `gatsby-transformer-yaml`,
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/components/layout.js`),
       },
-    },
-
-    {
-      resolve: 'gatsby-plugin-react-leaflet',
-      options: {
-        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
-      }
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -49,13 +43,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS,
-        anonymize: false,
-      },
-    },
+
+    // {
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: {
+    //     trackingId: process.env.GOOGLE_ANALYTICS,
+    //     anonymize: false,
+    //   },
+    // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

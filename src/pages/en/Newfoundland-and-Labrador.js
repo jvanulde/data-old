@@ -3,10 +3,6 @@ import NLMapComponent from "../../svg/NL-Generalized.svg"
 import YAMLData from "../../../content/data/yaml/prov-terr.yaml"
 import { Link } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
-// import { MapContainer, TileLayer, LayersControl } from "react-leaflet"
-// import  { EsriLeafletLayer } from "../../components/EsriLeafletLayer"
-import '../../styles/theme-wet-boew/css/ie8-theme.css'
-
 
 const NewfoundlandAndLabrador = () => {
   return (
@@ -286,8 +282,6 @@ const NewfoundlandAndLabrador = () => {
             </Card>
           </Accordion>
         </div>
-      </section>
-      <section className="container">
       </section>
     </>
   )

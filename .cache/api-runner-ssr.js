@@ -1,16 +1,13 @@
 var plugins = [{
+      name: 'gatsby-plugin-react-helmet',
       plugin: require('/Users/michaelchristianson/Documents/data/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      name: 'gatsby-plugin-layout',
       plugin: require('/Users/michaelchristianson/Documents/data/node_modules/gatsby-plugin-layout/gatsby-ssr'),
       options: {"plugins":[],"component":"/Users/michaelchristianson/Documents/data/src/components/layout.js"},
     },{
-      plugin: require('/Users/michaelchristianson/Documents/data/node_modules/gatsby-plugin-react-leaflet/gatsby-ssr'),
-      options: {"plugins":[],"linkStyles":true},
-    },{
-      plugin: require('/Users/michaelchristianson/Documents/data/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"anonymize":false,"head":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
-    },{
+      name: 'gatsby-plugin-manifest',
       plugin: require('/Users/michaelchristianson/Documents/data/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/favicon-1.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"460e7f991635d0c92ca64eb2c5cc8d67"},
     }]
@@ -40,11 +37,21 @@ module.exports = (api, args, defaultReturn, argTransform) => {
     if (!plugin.plugin[api]) {
       return undefined
     }
-    const result = plugin.plugin[api](args, plugin.options)
-    if (result && argTransform) {
-      args = argTransform({ args, result })
+    try {
+      const result = plugin.plugin[api](args, plugin.options)
+      if (result && argTransform) {
+        args = argTransform({ args, result })
+      }
+      return result
+    } catch (e) {
+      if (plugin.name !== `default-site-plugin`) {
+        // default-site-plugin is user code and will print proper stack trace,
+        // so no point in annotating error message pointing out which plugin is root of the problem
+        e.message += ` (from plugin: ${plugin.name})`
+      }
+
+      throw e
     }
-    return result
   })
 
   // Filter out undefined results.

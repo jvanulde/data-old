@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
 // import { MapContainer, TileLayer, LayersControl } from "react-leaflet"
 // import  { EsriLeafletLayer } from "../../components/EsriLeafletLayer"
-import '../../styles/theme-wet-boew/css/ie8-theme.css'
+
 
 
 const BritishColumbia = () => {

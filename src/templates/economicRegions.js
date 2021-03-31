@@ -1,7 +1,5 @@
-import React from "react"
+import React from 'react'
 import { Link } from "gatsby"
-import { MapContainer } from 'react-leaflet'
-import { BasemapLayer, FeatureLayer} from 'react-esri-leaflet'
 const EconomicRegions = props => {
   const { pageContext } = props
   const { pageContent, aggregateData } = pageContext
@@ -9,24 +7,21 @@ const EconomicRegions = props => {
   return (
     <div className="container">
       <div className="breadcrumb">
-        <Link to="/">Home</Link><span>/ Economic Regions / </span>
+        <Link to="/">Home </Link><span>/ Economic Regions / </span>
       </div>
-      <div>
+      <div className="ER-container">
         {pageContent.map((data, index) => {
           return <h1 id="wb-cont" key={`content_title_${index}`}>{data.title}</h1>
         })}
-      </div>
-      <div style={{ display: "flex" }}>
-        <p style={{ width: "50%" }}>
+            <div className="col-md-6 pull-left">
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          aliquip ex ea commodo consequat.
         </p>
-        <ul style={{ marginLeft: "29%" }}>
+        </div>
+        <ul className="col-md-4 pull-right">
           {aggregateData.map((item, index) => {
             return (
               <li className="Region-Summary" key={`aggregateData_${index}`}>
@@ -35,15 +30,7 @@ const EconomicRegions = props => {
             )
           })}
         </ul>
-      </div>
-
-      <div>
-      <MapContainer zoom={2}>
-
-        <BasemapLayer name="DarkGray" />
-
-        <FeatureLayer url={"https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/6"} />
-      </MapContainer>
+      
       </div>
       {/* <Link
         to="/indicators/"

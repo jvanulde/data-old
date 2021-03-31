@@ -2,7 +2,6 @@ import React from "react"
 import NTMapComponent from "../../svg/NT-Generalized.svg"
 import YAMLData from "../../../content/data/yaml/prov-terr.yaml"
 import { Link } from "gatsby"
-import '../../styles/theme-wet-boew/css/ie8-theme.css'
 
 
 const NorthwestTerritories = () => {

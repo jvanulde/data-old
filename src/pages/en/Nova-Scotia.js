@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import { Accordion, Card, Button } from "react-bootstrap"
 // import { MapContainer, TileLayer, LayersControl } from "react-leaflet"
 // import  { EsriLeafletLayer } from "../../components/EsriLeafletLayer"
-import '../../styles/theme-wet-boew/css/ie8-theme.css'
 
 
 const NovaScotia = () => {
@@ -486,59 +485,6 @@ const NovaScotia = () => {
             </Card>
           </Accordion>
         </div>
-      </section>
-      <section className="container">
-        {/* <MapContainer
-          doubleClickZoom={false}
-          id="mapId"
-          zoom={8}
-          style={{ height: "100vh" }}
-          center={{ lat: 5121238.451499999, lng: -5858630.3324 }}
-        >
-          <TileLayer
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
-            attribution="Esri, USGS | Esri, Garmin, FAO, NOAA, NRCan, Parks Canada | Murray Journeay"
-          />
-
-          <LayersControl collapsed={false}>
-            <LayersControl.BaseLayer name="Feature Layer" checked>
-              <EsriLeafletLayer
-                opacity={1}
-                layerType="featureLayer"
-                url="https://sampleserver6.arcgisonline.com/arcgis/rest/services/Earthquakes_Since1970/MapServer/0"
-              />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Tiled Map Layer">
-              <EsriLeafletLayer
-                opacity={1}
-                layerType="tiledMapLayer"
-                url="https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WUI_2010_01/MapServer"
-              />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Base Map Layer">
-              <EsriLeafletLayer
-                opacity={1}
-                layerType="basemapLayer"
-                name="Imagery"
-              />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Dynamic Map Layer">
-              <EsriLeafletLayer
-                opacity={1}
-                layerType="dynamicMapLayer"
-                url="https://services.arcgisonline.com/arcgis/rest/services/Specialty/Soil_Survey_Map/MapServer"
-              />
-            </LayersControl.BaseLayer>
-            <LayersControl.BaseLayer name="Image Map Layer">
-              <EsriLeafletLayer
-                opacity={1}
-                layerType="imageMapLayer"
-                url="https://landsat.arcgis.com/arcgis/rest/services/Landsat/PS/ImageServer"
-                attribution="United States Geological Survey (USGS), National Aeronautics and Space Administration (NASA)"
-              />
-            </LayersControl.BaseLayer>
-          </LayersControl>
-        </MapContainer> */}
       </section>
     </>
   )
