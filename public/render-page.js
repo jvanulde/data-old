@@ -5312,10 +5312,10 @@ const Footer = () => (0,_emotion_react__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", 
   href: "https://www.canada.ca/en/transparency/privacy.html"
 }, "Privacy"))), (0,_emotion_react__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
   className: "col-md-2 pull-right"
-}, (0,_emotion_react__WEBPACK_IMPORTED_MODULE_2__.jsx)("a", null, (0,_emotion_react__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
+}, (0,_emotion_react__WEBPACK_IMPORTED_MODULE_2__.jsx)("img", {
   src: _images_wmms_blk_svg__WEBPACK_IMPORTED_MODULE_1__.default,
   alt: "Symbol of the Government of Canada"
-}))));
+})));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
+import  MapboxGlMap  from '../components/RegionMap/MapboxGlMap'
 const EconomicRegions = props => {
   const { pageContext } = props
   const { pageContent, aggregateData } = pageContext
@@ -32,6 +33,11 @@ const EconomicRegions = props => {
         </ul>
       
       </div>
+      <section>
+        <div className="container">
+      <MapboxGlMap />
+      </div>
+      </section>
       {/* <Link
         to="/indicators/"
         state={{
