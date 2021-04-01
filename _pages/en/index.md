@@ -26,6 +26,11 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
 These datasets are available for download by Province/Territory and by Economic Region.
 
 Currently only GeoPackage (.gpkg) format is provided.
+### Licence
+
+All products are released under the Open Government Licence - Canada.
+
+<a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-primary">View</a>
 
 ## Browse by Province
 
@@ -57,7 +62,7 @@ Currently only GeoPackage (.gpkg) format is provided.
 
         {% assign p = prov | append: '/' %}
         
-        <div class="{{ prov }}">
+        <div class="prov {{ prov }}">
 
         <a name="{{ prov }}"></a>
 
@@ -65,10 +70,10 @@ Currently only GeoPackage (.gpkg) format is provided.
 
         <table class="table table-hover">
           <tr>
-            <th scope="col" class="col-sm-8"></th>
-            <th scope="col" class="col-sm-2">Date modified</th>
-            <th scope="col" class="col-sm-1">Format</th>
-            <th scope="col" class="col-sm-1"></th>
+            <th scope="col" class="col-sm-6"></th>
+            <th scope="col">Date modified</th>
+            <th scope="col">Format</th>
+            <th scope="col"></th>
           </tr>
         
         {% for folder in site.static_files %}
@@ -92,6 +97,30 @@ Currently only GeoPackage (.gpkg) format is provided.
 
                 {% unless my_array[4] == 'er' %}
 
+                {% assign map_url = nil %}
+                {% assign map_type = nil %}
+                {% assign map_layer = nil %}
+
+                {% for m in site.data.metadata.datasets %}
+                    
+                    {% if folder.path contains m.id %}
+                        {% assign map_url = m.map_url.en %}
+                        {% assign map_type = m.map_type %}
+                        {% assign map_layer = m.map_layer %}
+                    {% endif %}
+
+                {% endfor %}
+
+                {% assign prov_code = "" %}
+                
+                {% for p in site.data.prov.provinces %}
+                    
+                    {% if prov == p.id %}
+                        {% assign prov_code = p.code %}
+                    {% endif %}
+
+                {% endfor %}
+
                   <tr>
                       <td>
                           <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
@@ -100,9 +129,10 @@ Currently only GeoPackage (.gpkg) format is provided.
                       </td>
                       <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                       <td><span class="label label-default">{{ folder.extname }}</span></td>
-                      <td>
-                          <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                          <a class="btn btn-primary btn-sm pull-right" href="{{ folder.path }}">Download</a>
+                      <td style="text-align: right;">
+                          {% if map_url != nil and map_type != nil and map_layer != nil %} {% endif %}
+                          <a class="btn btn-primary btn-sm map-link" href="map.html?id={{folder.path}}&filter=pruid%3D'{{prov_code}}&prov={{prov}}'">Details</a>
+                          <!-- <a class="btn btn-primary btn-sm" href="{{ folder.path }}">Access</a> -->
                       </td>
                   </tr>
 
@@ -112,7 +142,11 @@ Currently only GeoPackage (.gpkg) format is provided.
         {% endfor %}
         </table>
 
+        <details>
+        <summary>
         <h4>Economic Regions</h4>
+        </summary>
+
         <table class="table table-hover">
 
         {% assign eruid = "" %}
@@ -127,9 +161,10 @@ Currently only GeoPackage (.gpkg) format is provided.
                     {% for er in site.data.er.regions %}
                         {% if er.code == eruid %}
                             <tr>
-                              <th scope="col" class="col-sm-8">{{ er.title }} ({{ eruid }})</th>
-                              <th scope="col" class="col-sm-2">Date modified</th><th scope="col" class="col-sm-1">Format</th>
-                              <th scope="col" class="col-sm-1"></th>
+                              <th scope="col" class="col-sm-6">{{ er.title }} ({{ eruid }})</th>
+                              <th scope="col">Date modified</th>
+                              <th scope="col">Format</th>
+                              <th scope="col"></th>
                             </tr>
                         {% endif %}
                     {% endfor %}
@@ -152,6 +187,20 @@ Currently only GeoPackage (.gpkg) format is provided.
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 
+                        {% assign map_url = nil %}
+                        {% assign map_type = nil %}
+                        {% assign map_layer = nil %}
+
+                        {% for m in site.data.metadata.datasets %}
+                            
+                            {% if folder.path contains m.id %}
+                                {% assign map_url = m.map_url.en %}
+                                {% assign map_type = m.map_type %}
+                                {% assign map_layer = m.map_layer %}
+                            {% endif %}
+
+                        {% endfor %}
+
                         {% assign my_array = folder.path | split: "/" %}
                         
                         <tr>
@@ -162,9 +211,10 @@ Currently only GeoPackage (.gpkg) format is provided.
                             </td>
                             <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
                             <td><span class="label label-default">{{ folder.extname }}</span></td>
-                            <td>
-                                <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                                <a class="btn btn-primary btn-sm pull-right" href="{{ folder.path }}">Download</a>
+                            <td style="text-align: right;">
+                                {% if map_url != nil and map_type != nil and map_layer != nil %}{% endif %}
+                                <a class="btn btn-primary btn-sm map-link" href="map.html?id={{folder.path}}&filter=eruid%3D'{{eruid}}'&prov={{prov}}&eruid={{eruid}}">Details</a>
+                                <!-- <a class="btn btn-primary btn-sm" href="{{ folder.path }}">Access</a> -->
                             </td>
                         </tr>
                     {% endif %}
@@ -172,6 +222,8 @@ Currently only GeoPackage (.gpkg) format is provided.
             {% endif %}
         {% endfor %}
         </table>
+
+        </details>
     </div>
     
     {% endfor %}
