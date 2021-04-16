@@ -128,8 +128,24 @@ layout: compress
             var id = urlParam( 'id' ),
                 config = JSON.stringify({{site.data.metadata | jsonify }}),
                 metadata = JSON.parse( config ),
-                filter = decodeURIComponent( urlParam( 'filter' ) ),
-                map, indicator, gpkg, legend, tiles, map_url, map_layer, map_type, map_resources;
+                region = decodeURIComponent( urlParam( 'region' ) ),
+                filter, map, indicator, gpkg, legend, tiles, map_url, map_layer, map_type, map_resources, regions;
+
+            regions = {
+                'ab': { 'code': '48', 'en': 'Alberta', 'fr': 'Alberta' },
+                'bc': { 'code': '59', 'en': 'British Columbia', 'fr': 'Colombie Britannique' },
+                'nl': { 'code': '10', 'en': 'Newfoundland and Labrador', 'fr': 'Terre Neuve et Labrador' },
+                'pe': { 'code': '11', 'en': 'Prince Edward Island', 'fr': 'Île du Prince Édouard' },
+                'ns': { 'code': '12', 'en': 'Nova Scotia', 'fr': 'Nouvelle-Écosse' },
+                'nb': { 'code': '13', 'en': 'New Brunswick', 'fr': 'Nouveau Brunswick' },
+                'qc': { 'code': '24', 'en': 'Alberta', 'fr': 'Alberta' },
+                'on': { 'code': '35', 'en': 'Ontario', 'fr': 'Ontario' },
+                'mb': { 'code': '46', 'en': 'Manitoba', 'fr': 'Manitoba' },
+                'sk': { 'code': '47', 'en': 'Saskatchewan', 'fr': 'Saskatchewan' },
+                'yk': { 'code': '60', 'en': 'Yukon', 'fr': 'Yukon' },
+                'nt': { 'code': '61', 'en': 'North West Territories', 'fr': 'Territoires du Nord-Ouest' },
+                'nu': { 'code': '62', 'en': 'Nunavut', 'fr': 'Nunavut' }
+            }
 
             tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
@@ -144,29 +160,41 @@ layout: compress
                     map_url = dataset.map_url;
                     map_layer = dataset.map_layer;
                     map_type = dataset.map_type;
-                    map_title = dataset.title.{{lang}};
+                    map_title = dataset.title.{{lang}} + ' - ' + regions[region]['{{lang}}'];
                     map_desc = dataset.description.{{lang}};
                     map_resources = dataset.resources;
+                    map_collection = dataset.collection.{{lang}};
 
                     break;
                 }
                 
             }
 
+
+            filter = "pruid='" + regions[region].code + "'";
+
+            var collection = id.split('_')[0];
+
+            $( 'ol.breadcrumb').append( '<li><a href="' + collection + '">' + map_collection + '</a></li>');
+            $( 'ol.breadcrumb').append( '<li><a href="">' + map_title + '</a></li>');
+
             // set the map metadata
             $( "#map-title" ).text( map_title );
-            $( "#map-desc" ).text( map_desc );
+            $( "#map-desc" ).html( map_desc.replace( new RegExp( '\r?\n', 'g' ), '<br/><br/>' ) );
 
             var resrcs = "";
 
             for ( res in map_resources ) {
 
                 let r = map_resources[res];
-                let lang = r.language == "en" ? "English" : "French";
-                let btntxt = "{{lang}}" == "en" ? "Access" : "Accès";
 
-                resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td>' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary btn-sm">' + btntxt + '</a></td></tr>';
+                if ( r.region === 'ca' || r.region === region ) {
+                
+                    let lang = r.language == "en" ? "English" : "French";
+                    let btntxt = "{{lang}}" == "en" ? "Access" : "Accès";
 
+                    resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td>' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary btn-sm">' + btntxt + '</a></td></tr>';
+                }
             }
 
             $( '#resources > tbody' ).html( resrcs );
@@ -179,8 +207,6 @@ layout: compress
 
             map = L.map( 'map', { layers: [tiles] } ).setView( [61.0666922, -107.991707], 3 );
             legend = L.control( { position: 'bottomright' } );
-
-            
 
             if ( map_type == 'esri_rest' ) {
 
@@ -358,10 +384,20 @@ layout: compress
     {% include skiplinks.html %}
     {% include header.html %}
     <!-- Static header ends -->
+    <header>
+      <nav id="wb-bc" property="breadcrumb">
+        <h2>:</h2>
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="/{{lang}}">Home</a></li>
+                <!-- <li><a href="">Collection name</a></li>
+                <li><a href="">Layername</a></li> -->
+          </ol>
+        </div>
+      </nav>
+    </header>
     <main property="mainContentOfPage" class="container" typeof="WebPageElement">
 
-      <a href="./">{{ i18n.back[lang] }}</a>
-      
       <h2 id="map-title" style="text-transform:capitalize"></h2>
     
       <div id="map" class="leafmap" style="width:100%;height:500px;"></div>
@@ -371,25 +407,25 @@ layout: compress
           <div id="sidebar">{% if lang == 'en' %}Click on a map feature to see its properties.{% endif %} {% if lang == 'fr' %}Cliquez sur un élément de la carte pour voir ses propriétés.{% endif %}</div>
         </div>
       </section>
-
-      <h3>Abstract</h3>
       
       <p id="map-desc"></p>
 
-      <h3>Resources</h3>
+      <h3>{% if lang == 'en' %}Resources{% endif %} {% if lang == 'fr' %}Ressources{% endif %}</h3>
 
       <table id="resources" class="table table-striped">
           <thead>
             <tr>
-                <th scope="col" class="col-sm-6">Resource Name</th>
-                <th scope="col">Resource Type</th>
+                <th scope="col" class="col-sm-6">{% if lang == 'en' %}Resource Name{% endif %} {% if lang == 'fr' %}Nom de la ressource{% endif %}</th>
+                <th scope="col">{% if lang == 'en' %}Resource Type{% endif %} {% if lang == 'fr' %}Type de ressource{% endif %}</th>
                 <th scope="col">Format</th>
-                <th scope="col">Language</th>
-                <th scope="col" class="col-sm-1">Links</th>
+                <th scope="col">{% if lang == 'en' %}Language{% endif %} {% if lang == 'fr' %}Langue{% endif %}</th>
+                <th scope="col" class="col-sm-1">{% if lang == 'en' %}Links{% endif %} {% if lang == 'fr' %}Liens{% endif %}</th>
             </tr>
           </thead>
           <tbody></tbody>
       </table>
+
+      &nbsp;
 
     </main>
     <!-- Static footer starts -->
