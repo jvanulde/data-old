@@ -21,11 +21,17 @@ sitesearch: false
 ---
 # {{ page.contentTitle.en }}
 
+<div class="text-danger bg-danger">
+<p style="margin:15px;padding:10px;"><strong>NOTE: </strong>All resources available on this site are in DRAFT unless otherwise noted.</p>
+</div>
+
+<div class="text-info bg-info">
+<p style="margin:15px;padding:10px;"><strong>LICENCE: </strong>All resources available on this site fall under the <a href="https://open.canada.ca/en/open-government-licence-canada">Open Government Licence - Canada</a></p>
+</div>
+
 Welcome to the OpenDRR data download site. Here you will find the latest versions of all datasets.
 
 These datasets are available for download by Province/Territory and by Economic Region.
-
-Currently only GeoPackage (.gpkg) format is provided.
 
 ## Browse by Province
 
@@ -82,7 +88,7 @@ Currently only GeoPackage (.gpkg) format is provided.
                 {% endif %}
                 
                 {% if folder.path contains "_s_" %}
-                    {% assign geom = "(Census Subdivision)" %}
+                    {% assign geom = "(Settlement Areas)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -146,7 +152,7 @@ Currently only GeoPackage (.gpkg) format is provided.
                         {% endif %}
                         
                         {% if folder.path contains "_s_" %}
-                            {% assign geom = "(Census Subdivision)" %}
+                            {% assign geom = "(Settlement Areas)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 

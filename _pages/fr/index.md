@@ -21,11 +21,17 @@ sitesearch: false
 ---
 # {{ page.contentTitle.fr }}
 
+<div class="text-danger bg-danger">
+<p style="margin:15px;padding:10px;"><strong>NOTE: </strong>Toutes les ressources disponibles sur ce site sont en version préliminaire, sauf indication contraire.</p>
+</div>
+
+<div class="text-info bg-info">
+<p style="margin:15px;padding:10px;"><strong>LICENCE: </strong>Toutes les ressources disponibles sur ce site sont soumises à la <a href="https://open.canada.ca/fr/open-government-licence-canada">Licence du gouvernement ouvert – Canada</a></p>
+</div>
+
 Bienvenue sur le site de téléchargement des données OpenDRR. Vous trouverez ici les dernières versions de tous les ensembles de données.
 
 Ces ensembles de données peuvent être téléchargés par province/territoire et par région économique.
-
-Actuellement, seul le format GeoPackage (.gpkg) est fourni.
 
 ## Parcourir par province
 
@@ -82,7 +88,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                 {% endif %}
                 
                 {% if folder.path contains "_s_" %}
-                    {% assign geom = "(Subdivision de recensement)" %}
+                    {% assign geom = "(Zones de peuplement)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -142,7 +148,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                         {% endif %}
                         
                         {% if folder.path contains "_s_" %}
-                            {% assign geom = "(Subdivision de recensement)" %}
+                            {% assign geom = "(Zones de peuplement)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 

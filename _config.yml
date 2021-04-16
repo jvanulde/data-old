@@ -41,7 +41,7 @@ compress_html:
   blanklines: true
   profile: false
 quiet: false
-timezone: America/Toronto # Timezone for blog posts and alike
+timezone: America/Vancouver # Timezone for blog posts and alike
 themeJS: true
 verbose: false
 
