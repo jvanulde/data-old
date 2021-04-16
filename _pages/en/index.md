@@ -21,6 +21,8 @@ sitesearch: false
 ---
 # {{ page.contentTitle.en }}
 
+<p class="text-warning "><strong>NOTE: </strong>All resources available on this site are in DRAFT unless otherwise noted.</p>
+
 Welcome to the OpenDRR data download site. Here you will find the latest versions of all datasets.
 
 These datasets are available for download by Province/Territory and by Economic Region.
@@ -82,7 +84,7 @@ Currently only GeoPackage (.gpkg) format is provided.
                 {% endif %}
                 
                 {% if folder.path contains "_s_" %}
-                    {% assign geom = "(Census Subdivision)" %}
+                    {% assign geom = "(Settlement Areas)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -146,7 +148,7 @@ Currently only GeoPackage (.gpkg) format is provided.
                         {% endif %}
                         
                         {% if folder.path contains "_s_" %}
-                            {% assign geom = "(Census Subdivision)" %}
+                            {% assign geom = "(Settlement Areas)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 

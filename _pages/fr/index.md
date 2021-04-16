@@ -82,7 +82,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                 {% endif %}
                 
                 {% if folder.path contains "_s_" %}
-                    {% assign geom = "(Subdivision de recensement)" %}
+                    {% assign geom = "(Zones de peuplement)" %}
                     {% assign icon = "polygon.svg" %}
                 {% endif %}
 
@@ -142,7 +142,7 @@ Actuellement, seul le format GeoPackage (.gpkg) est fourni.
                         {% endif %}
                         
                         {% if folder.path contains "_s_" %}
-                            {% assign geom = "(Subdivision de recensement)" %}
+                            {% assign geom = "(Zones de peuplement)" %}
                             {% assign icon = "polygon.svg" %}
                         {% endif %}
 
