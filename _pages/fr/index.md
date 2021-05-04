@@ -25,7 +25,7 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">
     <div class="col-md-4">
-        <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
     </div>
     <div class="col-md-8">
         <h3>Zones de peuplement et dangers naturels au Canada</h3>
@@ -41,13 +41,13 @@ Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ic
         <a href="psra.html" class="btn btn-primary">Explorer la collection</a>
     </div>
     <div class="col-md-4">
-        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
     </div>
 </div>
 <hr>
 <div class="row mrgn-tp-xl mrgn-btm-xl">
     <div class="col-md-4">
-        <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
     </div>
     <div class="col-md-8">
         <h3>Scénarios de tremblement de terre <mark>Bientôt disponible</mark></h3>

@@ -17,6 +17,7 @@ subject:
 title: OpenDRR
 lang: en
 sitesearch: false
+footer: false
 ---
 # {{ page.contentTitle.en }}
 
@@ -25,7 +26,7 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">
     <div class="col-md-4">
-        <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
     <div class="col-md-8">
         <h3>Human Settlement and Natural Hazards in Canada</h3>
@@ -41,13 +42,13 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
         <a href="psra.html" class="btn btn-primary">Explore</a>
     </div>
     <div class="col-md-4">
-        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
 </div>
 <hr>
 <div class="row mrgn-tp-xl mrgn-btm-xl">
     <div class="col-md-4">
-        <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width">
+        <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
     <div class="col-md-8">
         <h3>Earthquake Scenarios <mark>Coming soon</mark></h3>

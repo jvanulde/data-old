@@ -144,7 +144,8 @@ layout: compress
                 'sk': { 'code': '47', 'en': 'Saskatchewan', 'fr': 'Saskatchewan' },
                 'yk': { 'code': '60', 'en': 'Yukon', 'fr': 'Yukon' },
                 'nt': { 'code': '61', 'en': 'North West Territories', 'fr': 'Territoires du Nord-Ouest' },
-                'nu': { 'code': '62', 'en': 'Nunavut', 'fr': 'Nunavut' }
+                'nu': { 'code': '62', 'en': 'Nunavut', 'fr': 'Nunavut' },
+                'ca': { 'code': '0', 'en': 'Canada', 'fr': 'Canada' }
             }
 
             tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -170,8 +171,12 @@ layout: compress
                 
             }
 
-
-            filter = "pruid='" + regions[region].code + "'";
+            if ( regions[region].code !== "0" ) {
+                filter = "pruid='" + regions[region].code + "'";
+            } else {
+                filter = "";
+            }
+            
 
             var collection = id.split('_')[0];
 
@@ -353,10 +358,15 @@ layout: compress
                 // get the layer data
                 // NOTE: this is also available in the service 
                 // metadata so we may not need to request is explicitly
-                $.getJSON( restUrl + "/query?where=" + filter + "&returnExtentOnly=true&f=pjson", function( data ) {
+
+                var where = filter ? "&where=" + filter : "";
+
+                $.getJSON( restUrl + "/query?returnExtentOnly=true&f=pjson" + where, function( data ) {
                     if ( !data ) {
                         return;
                     }
+
+                    console.log( data);
 
                     var min = L.Projection.SphericalMercator.unproject( L.point( data.extent.xmin, data.extent.ymin ) ),
                         max = L.Projection.SphericalMercator.unproject( L.point( data.extent.xmax, data.extent.ymax ) );
