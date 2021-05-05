@@ -96,7 +96,7 @@ breadcrumbs:
 
 <p style="text-align:justify">L’inventaire des bâtiments cadre avec les normes internationales pour les évaluations des risques pour des dangers multiples et peut être utilisé dans d’autres applications d’évaluation de l’utilisation des terres qui pourraient nécessiter de l’information propre à la forme ou à la fonction de l’environnement bâti.</p>
 
-### Ressources
+### Ressources de données
 
 <table id="nhsl_physical_exposure_all_indicators" class="table">
   <tbody></tbody>
@@ -142,7 +142,7 @@ breadcrumbs:
 
 <p style="text-align:justify">La sensibilité à chacun des dangers est estimée en fonction du nombre de gens et de biens essentiels exposés au niveau des aires de diffusion du recensement. Les résultats sont regroupés dans un index des menaces liées à des dangers multiples pour aider à cerner les points chauds préoccupants dans l’ensemble du Canada.</p>
 
-### Ressources
+### Ressources de données
 
 <mark>Bientôt disponible</mark>
 
@@ -181,7 +181,7 @@ breadcrumbs:
 
 <p style="text-align:justify">Des indicateurs composites décrivant les caractéristiques des conditions de logement, de la structure familiale, de l’autonomie individuelle et des systèmes financiers permettent de comparer les niveaux relatifs de vulnérabilité d’une région à l’autre dans l’ensemble du Canada et d’identifier les quartiers dans lesquels la capacité de résister à des événements catastrophiques, et de s’en rétablir, peut être restreinte. Les indicateurs sont déclarés au niveau des aires de diffusion du recensement et peuvent être utilisés en conjonction avec des renseignements sur des menaces précises liées aux dangers pour identifier les points chauds préoccupants potentiels au sein d’une collectivité ou d’une région, et les zones dans lesquelles des investissements proactifs dans la planification et le développement des capacités pourraient efficacement contribuer à générer une résilience aux catastrophes et une durabilité à plus long terme.</p>
 
-### Ressources
+### Ressources de données
 
 <table id="nhsl_social_fabric_all_indicators" class="table">
   <tbody></tbody>
@@ -218,7 +218,7 @@ breadcrumbs:
 
 <p style="text-align:justify">Les indicateurs de l’exposition physique et de la sensibilité aux dangers sont déclarés au moyen du maillage de population de 250 m de la couche du peuplement humain mondial pour chaque époque temporelle. Les résultats de cette étude complètent une évaluation mondiale de l’exposition aux dangers naturels effectuée par le Centre commun de recherche dans le cadre de l’Atlas de la planète humaine de 2017 et fournissent des perspectives supplémentaires pour guider les efforts de planification locaux et régionaux sur le plan de la résilience aux catastrophes dans l’ensemble du Canada.</p>
 
-### Ressources
+### Ressources de données
 
 <table id="nhsl_risk_dynamics_all_indicators" class="table">
   <tbody></tbody>

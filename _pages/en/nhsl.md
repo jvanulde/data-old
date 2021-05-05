@@ -103,7 +103,7 @@ breadcrumbs:
 
 <p style="text-align:justify">The building inventory is aligned with international standards for multi-hazard risk assessment and is suitable for use in other land use assessment applications that may require specific information on the form and/or function of the built environment.</p>
 
-### Resources
+### Data Resources
 
 <table id="nhsl_physical_exposure_all_indicators" class="table">
   <tbody></tbody>
@@ -148,7 +148,7 @@ breadcrumbs:
 
 <p style="text-align:justify">Susceptibility to individual hazards is estimated based on the numbers of people and critical assets exposed at the Census Dissemination Area level. The results are aggregated into a multi-hazard threat index to help identify hotspots of concern across Canada.</p>
 
-### Resources 
+### Data Resources
 
 <mark>Coming soon</mark>
 
@@ -187,7 +187,7 @@ breadcrumbs:
 
 <p style="text-align:justify">Composite indicators describing characteristics of housing conditions, family structure, individual autonomy and financial agency provide a means of comparing relative levels of vulnerability from one region to another across Canada and help identify specific neighbourhoods within which capacities to withstand and recover from disaster events may be strained. Indicators are reported at the Census Dissemination Area level and can be used in conjunction with information on specific hazard threats to identify both potential hotspots of concern within a community or region, and areas in which proactive investments in planning and capacity development may be effective in building disaster resilience and longer-term sustainability.</p>
 
-### Resources
+### Data Resources
 
 <table id="nhsl_social_fabric_all_indicators" class="table">
   <tbody></tbody>
@@ -224,7 +224,7 @@ breadcrumbs:
 
 <p style="text-align:justify">Indicators of physical exposure and hazard susceptibility are reported using the 250m GHSL population grid mesh for each time epochs. Outputs of this study complement a global assessment of exposure to natural hazards carried out by the JRC as part of the 2017 Atlas of the Human Planet and provide additional insights to inform local and regional disaster resilience planning efforts across Canada.</p>
 
-### Resources
+### Data Resources
 
 <table id="nhsl_risk_dynamics_all_indicators" class="table">
   <tbody></tbody>

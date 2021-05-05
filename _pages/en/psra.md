@@ -26,10 +26,10 @@ breadcrumbs:
 
 <div class="row">
   <div class="col-md-8">
-    <p><strong>The National Seismic Risk model for Canada introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale.</strong></p>
-    <p>Risk metrics include measures of building damage and collapse probability, life safety and expected ground-up losses reported as both Average Annual Loss (AAL) and Probable Maximum Loss (PML) for reference return periods.</p>
-    <p>Model outputs are used to analyze existing baseline conditions of earthquake risk, and to evaluate the potential for risk reduction through proactive investments in seismic mitigation and post-disaster recovery planning.</p>
-    <p>The models and accompanying indicator framework are designed to support implementation of the Sendai Framework for Disaster Risk Reduction at local and regional scales (United Nations, 2015: SFDRR) -- and to help build capabilities for incorporating a disaster resilience lens into ongoing emergency management, sustainable land use and financial planning initiatives in Canada.</p>
+    <p style="text-align:justify"><strong>The National Seismic Risk model for Canada introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale.</strong></p>
+    <p style="text-align:justify">Risk metrics include measures of building damage and collapse probability, life safety and expected ground-up losses reported as both Average Annual Loss (AAL) and Probable Maximum Loss (PML) for reference return periods.</p>
+    <p style="text-align:justify">Model outputs are used to analyze existing baseline conditions of earthquake risk, and to evaluate the potential for risk reduction through proactive investments in seismic mitigation and post-disaster recovery planning.</p>
+    <p style="text-align:justify">The models and accompanying indicator framework are designed to support implementation of the Sendai Framework for Disaster Risk Reduction at local and regional scales (United Nations, 2015: SFDRR) -- and to help build capabilities for incorporating a disaster resilience lens into ongoing emergency management, sustainable land use and financial planning initiatives in Canada.</p>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
