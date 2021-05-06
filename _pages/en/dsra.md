@@ -37,9 +37,9 @@ breadcrumbs:
         <li class="list-group-item">
           <b>Organization name:</b><br>
           Government of Canada;Natural Resources Canada;Lands and Minerals Sector, Geological Survey of Canada
-        </li>   
+        </li>
         <li class="list-group-item">
-          <b>Courriel:</b><br>
+          <b>Email:</b><br>
           <a href="mailto:GSC.info.CGC@NRCan.gc.ca">GSC.info.CGC@NRCan.gc.ca</a>
         </li>
       </ul>

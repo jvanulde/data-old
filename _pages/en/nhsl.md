@@ -39,6 +39,7 @@ breadcrumbs:
   <!-- <p style="text-align:justify;">The <a href='#risk_dynamics'>Risk Dynamics Layer</a> utilizes information on population growth and land use change since 1975 to evaluate how evolving patterns of urbanization are contributing to escalating profiles of natural risk over time across Canada.</p> -->
   
   <p style="text-align:justify">Although developed to support quantitative risk assessments and implementation of the <a href="https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030">Sendai Framework for Disaster Risk Reduction</a> at local and regional scales in Canada, the NHSL is also suitable for use in other integrated landscape modeling applications, including climate change adaptation and sustainable land use planning.</p>
+  <p><center><a href="nhsl_map.html" class="btn btn-primary mrgn-tp-xl">View on Map</a></center></p>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
@@ -68,9 +69,9 @@ breadcrumbs:
         <li class="list-group-item">
           <b>Organization name:</b><br>
           Government of Canada;Natural Resources Canada;Lands and Minerals Sector, Geological Survey of Canada
-        </li>   
+        </li>
         <li class="list-group-item">
-          <b>Courriel:</b><br>
+          <b>Email:</b><br>
           <a href="mailto:GSC.info.CGC@NRCan.gc.ca">GSC.info.CGC@NRCan.gc.ca</a>
         </li>
       </ul>
