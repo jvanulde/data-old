@@ -105,9 +105,7 @@ breadcrumbs:
 
 ### Data Resources
 
-<table id="nhsl_physical_exposure_all_indicators" class="table">
-  <tbody></tbody>
-</table>
+<div id="nhsl_physical_exposure_all_indicators"></div>
 
 <!-- ### Régions disponibles -->
 
@@ -152,9 +150,7 @@ breadcrumbs:
 
 <mark>Coming soon</mark>
 
-<table id="nhsl_hazard_threat_all_indicators" class="table hidden">
-  <tbody></tbody>
-</table>
+<div id="nhsl_hazard_threat_all_indicators" class="hidden"></div>
 
 <!-- ### Régions disponibles -->
 
@@ -189,9 +185,7 @@ breadcrumbs:
 
 ### Data Resources
 
-<table id="nhsl_social_fabric_all_indicators" class="table">
-  <tbody></tbody>
-</table>
+<div id="nhsl_social_fabric_all_indicators"></div>
 
 <!-- ### Régions disponibles -->
 
@@ -226,9 +220,7 @@ breadcrumbs:
 
 ### Data Resources
 
-<table id="nhsl_risk_dynamics_all_indicators" class="table">
-  <tbody></tbody>
-</table>
+<div id="nhsl_risk_dynamics_all_indicators"></div>
 
 <!-- ### Régions disponibles -->
 
@@ -289,16 +281,18 @@ breadcrumbs:
                   let btntxt = "{{page.lang}}" == "en" ? "Access" : "Accès";
 
                   if ( r.region === 'ca' ) {
-                      resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td>' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
+                      resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
                   else {
-                     resrcs_prov += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td>' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
+                     resrcs_prov += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
               }
 
-              let i = id + " > tbody";
+              let i = id;
 
-              $( "#" + i ).html( '<tr><th scope="colgroup" colspan=5><h4>{% if page.lang == 'en' %}National Scale{% endif %} {% if page.lang == 'fr' %}Échelle nationale{% endif %}</h4></th><tr>' + header + resrcs + '<tr><th scope="colgroup" colspan=5><h4>{% if page.lang == 'en' %}Regional Scale{% endif %} {% if page.lang == 'fr' %}Échelle régionale{% endif %}</h4></th><tr>' + header + resrcs_prov );
+              $( "#" + i ).append('<h4>{% if page.lang == 'en' %}National Scale{% endif %} {% if page.lang == 'fr' %}Échelle nationale{% endif %}</h4><table class="table table-striped"><tbody>' + header + resrcs + '</tbody></table>' );
+
+              $( "#" + i ).append('<details><summary><h4>{% if page.lang == 'en' %}Regional Scale{% endif %} {% if page.lang == 'fr' %}Échelle régionale{% endif %}</h4></summary><table class="table table-striped"><tbody>' + header + resrcs_prov + '</tbody></table></details>' );
 
               break;
           }
@@ -306,3 +300,16 @@ breadcrumbs:
       }
 
 </script>
+
+<style>
+
+.GPKG {
+  color: #083c6c;
+  background-color: #e8f2f4;
+}
+
+.ESRI.REST {
+  color: #278400;
+  background-color: #d8eeca;
+}
+</style>
