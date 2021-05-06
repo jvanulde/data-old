@@ -505,7 +505,7 @@
           "format": "EXCEL",
           "language": "en",
           "region": "ca",
-          "link": "../../assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes.xlsx"
+          "link": "../assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes.xlsx"
         },
         { 
           "name": "Physical Exposure polygon geometry (AB)",
