@@ -22,6 +22,12 @@ footer: false
 # {{ page.contentTitle.en }}
 
 Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets.
+
+<section class="alert alert-danger">
+    <h3>Status</h3>
+    <p>All resources available on this site are in DRAFT unless otherwise noted.</p>
+</section>
+
 ## Available Collections
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">

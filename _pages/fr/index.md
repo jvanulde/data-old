@@ -21,6 +21,12 @@ sitesearch: false
 # {{ page.contentTitle.fr }}
 
 Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles.
+
+<section class="alert alert-danger">
+    <h3>Status</h3>
+    <p>Toutes les ressources disponibles sur ce site sont en version préliminaire, sauf indication contraire.</p>
+</section>
+
 ## Collections disponibles
 
 <div class="row mrgn-tp-xl mrgn-btm-xl">
