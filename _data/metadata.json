@@ -38,12 +38,12 @@
           "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/4"
         },
         { 
-          "name": "Social Fabric and Capacity Thresholds (Canada)",
-          "type": "Dataset",
-          "format": "GPKG",
+          "name": "Data dictionary",
+          "type": "Document",
+          "format": "EXCEL",
           "language": "en",
           "region": "ca",
-          "link": "../../assets/data/national_human_settlement_layers/nhsl_social_fabric_all_indicators_s.zip"
+          "link": "../../assets/data/national_human_settlement_layers/nhsl_social_fabric_attributes.xlsx"
         },
         { 
           "name": "Social Fabric and Capacity Thresholds (AB)",
@@ -498,6 +498,14 @@
           "language": "en",
           "region": "ca",
           "link": "../../assets/data/national_human_settlement_layers/nhsl_physical_exposure_all_indicators_b.zip"
+        },
+        { 
+          "name": "Data dictionary",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "en",
+          "region": "ca",
+          "link": "../../assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes.xlsx"
         },
         { 
           "name": "Physical Exposure polygon geometry (AB)",

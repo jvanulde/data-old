@@ -312,4 +312,9 @@ breadcrumbs:
   color: #278400;
   background-color: #d8eeca;
 }
+
+.EXCEL {
+  color: #f90;
+  background-color: #f9f4d4;
+}
 </style>
