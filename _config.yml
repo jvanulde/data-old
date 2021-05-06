@@ -69,7 +69,7 @@ analytics_google: ""
 analytics_google_anonymize_ip: ""
 assets: "https://wet-boew.github.io/themes-dist/GCWeb"
 baseurl: "/data" # set this to your GitHub project name
-lfspath: /raw/compressed-files # set this if you're using git-lfs as: /raw/<git repo name>
+lfspath: /raw/data # set this if you're using git-lfs as: /raw/<git repo name>
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 description:
   en: "OpenDRR Downloads" # English site description and default description
