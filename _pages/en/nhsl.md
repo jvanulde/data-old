@@ -36,9 +36,9 @@ breadcrumbs:
   
   <p style="text-align:justify">The <a href='#social_fabric'>Social Fabric Layer</a> utilizes Census demographic data to evaluate broad spatial patterns of vulnerability, and neighbourhood-level capacities to withstand and recover from disaster events based on intrinsic characteristics of housing, family structure, individual autonomy and financial agency.</p>
   
-  <p style="text-align:justify">The <a href='#risk_dynamics'>Risk Dynamics Layer</a> utilizes information on population growth and land use change since 1975 to evaluate how evolving patterns of urbanization are contributing to escalating profiles of natural risk over time across Canada.</p>
+  <!-- <p style="text-align:justify;">The <a href='#risk_dynamics'>Risk Dynamics Layer</a> utilizes information on population growth and land use change since 1975 to evaluate how evolving patterns of urbanization are contributing to escalating profiles of natural risk over time across Canada.</p> -->
   
-  <p style="text-align:justify">Although developed to support quantitative risk assessments and implementation of the Sendai Framework for Disaster Risk Reduction at local and regional scales in Canada, the NHSL is also suitable for use in other integrated landscape modeling applications, including climate change adaptation and sustainable land use planning.</p>
+  <p style="text-align:justify">Although developed to support quantitative risk assessments and implementation of the <a href="https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030">Sendai Framework for Disaster Risk Reduction</a> at local and regional scales in Canada, the NHSL is also suitable for use in other integrated landscape modeling applications, including climate change adaptation and sustainable land use planning.</p>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
@@ -55,9 +55,9 @@ breadcrumbs:
         <li class="list-group-item">
           <a href='#social_fabric'>Social Fabric Layer</a>
         </li>
-        <li class="list-group-item">
+        <!-- <li class="list-group-item">
           <a href='#risk_dynamics'>Risk Dynamics Layer</a>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="panel panel-primary">
@@ -208,6 +208,7 @@ breadcrumbs:
     </ul>
 </div>
 
+<div style="display:none">
 <a name="risk_dynamics"></a>
 
 ## Risk Dynamics
@@ -241,6 +242,7 @@ breadcrumbs:
         <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=sk">Saskatchewan</a></li>
         <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=yt">Yukon Territory</a></li>
     </ul>
+</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"

@@ -30,8 +30,8 @@ breadcrumbs:
   <p style="text-align:justify">La <a href='#physical_exposure'>couche de l’exposition physique</a> inclut une délinéation des zones de peuplement humain et les catégories d’utilisation fonctionnelle des terres qui y sont associées au Canada, et fournit des renseignements détaillés sur le type de construction, l’occupation et le niveau de conception de plus de 9,1 millions de bâtiments; la dynamique de la population à diverses heures de la journée pour 35,1 millions de personnes; et une évaluation des immobilisations des bâtiments et de leur contenu totalisant plus de 8 300 milliards de dollars canadiens.</p>
   <p style="text-align:justify">La <a href='#hazard_threat'>couche des menaces liées à des dangers naturels</a> utilise l’information disponible au niveau national sur les tremblements de terre, les inondations, les coulées des débris, les feux de forêt, et les dangers liés aux vents violents pour évaluer dans quelle mesure les gens et les biens essentiels se trouvent en danger, ainsi que le potentiel de perturbations socioéconomiques dans les zones où l’intensité des dangers dépasse les seuils minimaux de dommages.</p>
   <p style="text-align:justify">La <a href='#social_fabric'>couche du tissu social</a> utilise des données démographiques du recensement pour évaluer les profils spatiaux généraux de la vulnérabilité et les capacités au niveau des quartiers de résister à des événements catastrophiques, et à s’en rétablir, en se fondant sur les caractéristiques intrinsèques des logements, des structures familiales, de l’autonomie individuelle et des systèmes financiers.</p>
-  <p style="text-align:justify">La <a href='#risk_dynamics'>couche de la dynamique des risques</a> utilise l’information disponible sur la croissance de la population et les changements à l’utilisation des terres depuis 1975 pour évaluer comment l’évolution des tendances de l’urbanisation contribuent à aggraver les profils de risques naturels au fil du temps au Canada.</p>
-  <p style="text-align:justify">Bien qu’elle ait été mise au point pour appuyer l’évaluation quantitative des risques et la mise en œuvre du Cadre de Sendai pour la réduction des risques de catastrophe aux échelles locales et régionales au Canada, la couche ZPN convient également à d’autres applications intégrées de modélisation du paysage, y compris l’adaptation aux changements climatiques et la planification de l’utilisation durable des terres.</p>
+  <!-- <p style="text-align:justify">La <a href='#risk_dynamics'>couche de la dynamique des risques</a> utilise l’information disponible sur la croissance de la population et les changements à l’utilisation des terres depuis 1975 pour évaluer comment l’évolution des tendances de l’urbanisation contribuent à aggraver les profils de risques naturels au fil du temps au Canada.</p> -->
+  <p style="text-align:justify">Bien qu’elle ait été mise au point pour appuyer l’évaluation quantitative des risques et la mise en œuvre du <a href="https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030">Cadre de Sendai pour la réduction des risques de catastrophe</a> aux échelles locales et régionales au Canada, la couche ZPN convient également à d’autres applications intégrées de modélisation du paysage, y compris l’adaptation aux changements climatiques et la planification de l’utilisation durable des terres.</p>
   </div>
   <div class="col-md-4">
   <div class="panel panel-primary mrgn-tp-sm">
@@ -48,9 +48,9 @@ breadcrumbs:
         <li class="list-group-item">
           <a href='#social_fabric'>Couche du tissu social</a>
         </li>
-        <li class="list-group-item">
+        <!-- <li class="list-group-item">
           <a href='#risk_dynamics'>Couche de la dynamique des risques</a>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="panel panel-primary">
@@ -202,6 +202,7 @@ breadcrumbs:
     </ul>
 </div>
 
+<div style="display:none;">
 <a name="risk_dynamics"></a>
 
 ## Dynamique du risque
@@ -234,6 +235,7 @@ breadcrumbs:
         <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=sk">Saskatchewan</a></li>
         <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=yt">Yukon</a></li>
     </ul>
+</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"
