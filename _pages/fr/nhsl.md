@@ -273,10 +273,10 @@ breadcrumbs:
                   let btntxt = "{{lang}}" == "en" ? "Access" : "Accès";
 
                   if ( r.region === 'ca' ) {
-                      resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
+                      resrcs += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="{{site.lfspath}}' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
                   else {
-                     resrcs_prov += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
+                     resrcs_prov += '<tr><td>' + r.name + '</td><td>' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td>' + lang + '</td><td><a href="{{site.lfspath}}' + r.link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
               }
 
