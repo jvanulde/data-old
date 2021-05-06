@@ -21,6 +21,7 @@ breadcrumbs:
   - title: "OpenDRR Downloads"
     link: "/en"
   - title: "Human Settlement and Natural Hazards in Canada"
+    link: "/en/nhsl"
 ---
 
 # {{ page.contentTitle.en }}
