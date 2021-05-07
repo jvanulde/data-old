@@ -78,6 +78,8 @@ breadcrumbs:
   </div>
 </div>
 
+<hr>
+
 <a name="physical_exposure"></a>
 
 ## Physical Exposure
@@ -118,6 +120,8 @@ breadcrumbs:
         <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=yt">Yukon Territory</a></li>
     </ul>
 </div>
+
+<hr>
 
 <a name="hazard_threat"></a>
 
@@ -164,6 +168,8 @@ breadcrumbs:
     </ul>
 </div>
 
+<hr>
+
 <a name="social_fabric"></a>
 
 ## Social Fabric and Capacity Thresholds
@@ -198,6 +204,8 @@ breadcrumbs:
         <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=yt">Yukon Territory</a></li>
     </ul>
 </div>
+
+<hr>
 
 <div style="display:none">
 <a name="risk_dynamics"></a>
