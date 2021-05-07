@@ -5,7 +5,7 @@ authorUrl:
 contentTitle:
   en: Earthquake Scenarios
   fr: Scénarios de tremblement de terre
-dateModified: 2021-03-31
+dateModified: 2021-05-07
 description:
   en: "Library of select earthquake scenarios for Canada."
   fr: "Bibliothèque de scénarios de séismes sélectionnés pour le Canada."
