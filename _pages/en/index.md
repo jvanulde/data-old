@@ -42,13 +42,13 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
 </div>
 <hr>
 <div class="row mrgn-tp-xl mrgn-btm-xl">
-    <div class="col-md-8">
-        <h3>National Seismic Risk Model <mark>Coming soon</mark></h3>
+    <div class="col-md-4 col-md-push-8">
+        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
+    </div>
+    <div class="col-md-8 col-md-pull-4">
+        <h3>National Seismic Risk Model</h3><mark>Coming soon</mark>
         <p>The National Seismic Risk model for Canada introduces a structured framework of indicators that profile the physical, social and economic dimensions of earthquake risk at the neighborhood scale.</p>
         <a href="psra.html" class="btn btn-primary">Explore</a>
-    </div>
-    <div class="col-md-4">
-        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
 </div>
 <hr>
@@ -57,7 +57,7 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
         <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width" alt="Image of Canada">
     </div>
     <div class="col-md-8">
-        <h3>Earthquake Scenarios <mark>Coming soon</mark></h3>
+        <h3>Earthquake Scenarios</h3><mark>Coming soon</mark>
         <p>Library of select earthquake scenarios for Canada.</p>
         <a href="dsra.html" class="btn btn-primary">Explore</a>
     </div>
