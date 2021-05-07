@@ -281,15 +281,46 @@ breadcrumbs:
                       resrcs += '<tr><td>' + r.name + '</td><td class="hidden-xs">' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td><a href="' + download_link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
                   else {
-                     resrcs_prov += '<tr><td>' + r.name + '</td><td class="hidden-xs">' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td><a href="' + download_link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
+                    resrcs_prov += '<tr class="' + r.region + '"><td>' + r.name + '</td><td class="hidden-xs">' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td><a href="' + download_link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
                   }
               }
 
               let i = id;
 
+              let select = '<div class="row"><div class="col-md-12 mrgn-bttm-lg"><form class="form-inline" role="form" method="get" action="#"><div class="form-group"><label for="select-rgn-' + id + '" class="control-label mrgn-rght-lg">{% if page.lang == 'en' %}Select region: {% endif %} {% if page.lang == 'fr' %}Sélectionner la région{% endif %}</label><select id="select-rgn-' + id + '" class="select-rgn form-control"> \
+                  <option></option> \
+                  <option value="ab">{% if page.lang == 'en' %}Alberta{% endif %} {% if page.lang == 'fr' %}Alberta{% endif %}</option> \
+                  <option value="bc">{% if page.lang == 'en' %}British Columbia{% endif %} {% if page.lang == 'fr' %}Colombie Britannique{% endif %}</option> \
+                  <option value="nl">{% if page.lang == 'en' %}Newfoundland and Labrador{% endif %} {% if page.lang == 'fr' %}Terre Neuve et Labrador{% endif %}</option> \
+                  <option value="pe">{% if page.lang == 'en' %}Prince Edward Island{% endif %} {% if page.lang == 'fr' %}Île du Prince Édouard{% endif %}</option> \
+                  <option value="ns">{% if page.lang == 'en' %}Nova Scotia{% endif %} {% if page.lang == 'fr' %}Nouvelle-Écosse{% endif %}</option> \
+                  <option value="nb">{% if page.lang == 'en' %}New Brunswick{% endif %} {% if page.lang == 'fr' %}Nouveau Brunswick{% endif %}</option> \
+                  <option value="qc">{% if page.lang == 'en' %}Quebec{% endif %} {% if page.lang == 'fr' %}Quebec{% endif %}</option> \
+                  <option value="on">{% if page.lang == 'en' %}Ontario{% endif %} {% if page.lang == 'fr' %}Ontario{% endif %}</option> \
+                  <option value="mb">{% if page.lang == 'en' %}Manitoba{% endif %} {% if page.lang == 'fr' %}Manitoba{% endif %}</option> \
+                  <option value="sk">{% if page.lang == 'en' %}Saskatchewan{% endif %} {% if page.lang == 'fr' %}Saskatchewan{% endif %}</option> \
+                  <option value="yk">{% if page.lang == 'en' %}Yukon{% endif %} {% if page.lang == 'fr' %}Yukon{% endif %}</option> \
+                  <option value="nt">{% if page.lang == 'en' %}Northwest Territories{% endif %} {% if page.lang == 'fr' %}Territoires du Nord-Ouest{% endif %}</option> \
+                  <option value="nu">{% if page.lang == 'en' %}Nunavut{% endif %} {% if page.lang == 'fr' %}Nunavut{% endif %}</option> \
+                </select></div></form></div></div>'
+
               $( "#" + i ).append('<h4>{% if page.lang == 'en' %}National Scale{% endif %} {% if page.lang == 'fr' %}Échelle nationale{% endif %}</h4><table class="table table-striped table-responsive"><tbody>' + header + resrcs + '</tbody></table>' );
 
-              $( "#" + i ).append('<h4>{% if page.lang == 'en' %}Regional Scale{% endif %} {% if page.lang == 'fr' %}Échelle régionale{% endif %}</h4><table class="table table-striped table-responsive"><tbody>' + header + resrcs_prov + '</tbody></table>' );
+              $( "#" + i ).append(
+                '<h4>{% if page.lang == 'en' %}Regional Scale{% endif %} {% if page.lang == 'fr' %}Échelle régionale{% endif %}</h4>' + select + '<div class="row"><div class="col-md-12"><table class="rgn table table-striped table-responsive"><tbody>' + header + resrcs_prov + '</tbody></table></div></div>' );
+
+              $( ".ab, .bc, .mb, .ns, .nl, .qc, .on, .nu, .yt, .nt, .sk, .pe, .nb, .rgn" ).hide();
+
+              $( '#select-rgn-' + id ).on( 'change', function() {
+                $( ".ab, .bc, .mb, .ns, .nl, .qc, .on, .nu, .yt, .nt, .sk, .pe, .nb, .rgn" ).hide();
+
+                $("select").val( $( this ).val() );
+
+                if ( $( this ).val() ) {
+                  let p = '.' + $( this ).val() + ', .rgn';
+                  $( p ).fadeIn();
+                }
+              });
 
               break;
           }
