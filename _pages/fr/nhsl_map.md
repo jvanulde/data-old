@@ -22,6 +22,7 @@ breadcrumbs:
     link: "/fr"
   - title: "Zones de peuplement et dangers naturels au Canada"
     link: "/fr/nhsl"
+  - title: "Carte"
 ---
 
 # {{ page.contentTitle.fr }}

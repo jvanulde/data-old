@@ -22,6 +22,7 @@ breadcrumbs:
     link: "/en"
   - title: "Human Settlement and Natural Hazards in Canada"
     link: "/en/nhsl"
+  - title: "Map"
 ---
 
 # {{ page.contentTitle.en }}
