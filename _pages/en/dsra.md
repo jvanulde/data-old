@@ -1,5 +1,5 @@
 ---
-altLangPrefix: psra
+altLangPrefix: dsra
 authorName: Natural Resources Canada
 authorUrl:
 contentTitle:
@@ -15,7 +15,7 @@ subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: OpenDRR
-lang: fr
+lang: en
 sitesearch: false
 breadcrumbs:
   - title: "OpenDRR Downloads"
@@ -26,7 +26,11 @@ breadcrumbs:
 
 <div class="row">
   <div class="col-md-8">
-  {{ page.description.en }}
+    <p>{{ page.description.en }}</p>
+    <section class="jumbotron">
+      <p>All products are released under the Open Government Licence - Canada.</p>
+      <p><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Learn more</a></p>
+    </section>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
@@ -43,15 +47,6 @@ breadcrumbs:
           <a href="mailto:GSC.info.CGC@NRCan.gc.ca">GSC.info.CGC@NRCan.gc.ca</a>
         </li>
       </ul>
-    </div>
-    <div class="panel panel-primary">
-      <header class="panel-heading">
-        <div class="panel-title">Licence</div>
-      </header>
-      <div class="panel-body">
-        <p>All products are released under the Open Government Licence - Canada.</p>
-        <p class="text-center"><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-primary">View</a></p>
-      </div>
     </div>
   </div>
 </div>

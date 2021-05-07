@@ -1,5 +1,5 @@
 ---
-altLangPrefix: psra
+altLangPrefix: dsra
 authorName: Natural Resources Canada
 authorUrl:
 contentTitle:
@@ -26,7 +26,11 @@ breadcrumbs:
 
 <div class="row">
   <div class="col-md-8">
-  {{ page.description.fr }}
+    <p>{{ page.description.fr }}</p>
+    <section class="jumbotron">
+      <p>Tous les produits sont publiés sous la licence du gouvernement ouvert – Canada.</p>
+      <p><a href="https://open.canada.ca/fr/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Voir</a></p>
+    </section>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
@@ -37,21 +41,12 @@ breadcrumbs:
         <li class="list-group-item">
           <b>Nom de l'organisation:</b><br>
           Gouvernement du Canada;Ressources naturelles Canada;Secteur des terres et des minéraux, Commission géologique du Canada
-        </li>   
+        </li>
         <li class="list-group-item">
           <b>Courriel:</b><br>
           <a href="mailto:GSC.info.CGC@NRCan.gc.ca">GSC.info.CGC@NRCan.gc.ca</a>
         </li>
       </ul>
-    </div>
-    <div class="panel panel-primary">
-      <header class="panel-heading">
-        <div class="panel-title">Licence</div>
-      </header>
-      <div class="panel-body">
-        <p>Tous les produits sont publiés sous la licence du gouvernement ouvert – Canada.</p>
-        <p class="text-center"><a href="https://open.canada.ca/fr/open-government-licence-canada" class="btn btn-primary">Voir</a></p>
-      </div>
     </div>
   </div>
 </div>

@@ -29,17 +29,15 @@ breadcrumbs:
 
 <div class="row">
   <div class="col-md-8">
-  
-  <p style="text-align:justify">The <a href='#physical_exposure'>Physical Exposure Layer</a> includes a delineation of human settlement areas and related functional land use classes across Canada, and provides detailed information on construction type, occupancy and design level of more than 9.1 million buildings; population dynamics at different times of day for 35.1 million people, and; capital asset valuation of buildings and contents totaling more than 8.3 trillion CAD$.</p>
-  
-  <p style="text-align:justify">The <a href='#hazard_threat'>Natural Hazard Threat Layer</a> utilizes available national-level information on earthquake, flood, debris flow, wildfire, and severe wind hazards to evaluate the extent to which people and critical assets are situated in harm’s way; and the potential for socioeconomic disruptions in those areas where hazard intensities exceed minimum thresholds of damage.</p>
-  
-  <p style="text-align:justify">The <a href='#social_fabric'>Social Fabric Layer</a> utilizes Census demographic data to evaluate broad spatial patterns of vulnerability, and neighbourhood-level capacities to withstand and recover from disaster events based on intrinsic characteristics of housing, family structure, individual autonomy and financial agency.</p>
-  
-  <!-- <p style="text-align:justify;">The <a href='#risk_dynamics'>Risk Dynamics Layer</a> utilizes information on population growth and land use change since 1975 to evaluate how evolving patterns of urbanization are contributing to escalating profiles of natural risk over time across Canada.</p> -->
-  
-  <p style="text-align:justify">Although developed to support quantitative risk assessments and implementation of the <a href="https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030">Sendai Framework for Disaster Risk Reduction</a> at local and regional scales in Canada, the NHSL is also suitable for use in other integrated landscape modeling applications, including climate change adaptation and sustainable land use planning.</p>
-  <p><center><a href="nhsl_map.html" class="btn btn-primary mrgn-tp-xl">View on Map</a></center></p>
+    <p style="text-align:justify">The <a href='#physical_exposure'>Physical Exposure Layer</a> includes a delineation of human settlement areas and related functional land use classes across Canada, and provides detailed information on construction type, occupancy and design level of more than 9.1 million buildings; population dynamics at different times of day for 35.1 million people, and; capital asset valuation of buildings and contents totaling more than 8.3 trillion CAD$.</p>
+    <p style="text-align:justify">The <a href='#hazard_threat'>Natural Hazard Threat Layer</a> utilizes available national-level information on earthquake, flood, debris flow, wildfire, and severe wind hazards to evaluate the extent to which people and critical assets are situated in harm’s way; and the potential for socioeconomic disruptions in those areas where hazard intensities exceed minimum thresholds of damage.</p>
+    <p style="text-align:justify">The <a href='#social_fabric'>Social Fabric Layer</a> utilizes Census demographic data to evaluate broad spatial patterns of vulnerability, and neighbourhood-level capacities to withstand and recover from disaster events based on intrinsic characteristics of housing, family structure, individual autonomy and financial agency.</p>
+    <!-- <p style="text-align:justify;">The <a href='#risk_dynamics'>Risk Dynamics Layer</a> utilizes information on population growth and land use change since 1975 to evaluate how evolving patterns of urbanization are contributing to escalating profiles of natural risk over time across Canada.</p> -->
+    <p style="text-align:justify">Although developed to support quantitative risk assessments and implementation of the <a href="https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030">Sendai Framework for Disaster Risk Reduction</a> at local and regional scales in Canada, the NHSL is also suitable for use in other integrated landscape modeling applications, including climate change adaptation and sustainable land use planning.</p>
+    <section class="jumbotron">
+      <p>All products are released under the Open Government Licence - Canada.</p>
+      <p><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Learn more</a></p>
+    </section>
   </div>
   <div class="col-md-4">
     <div class="panel panel-primary mrgn-tp-sm">
@@ -76,15 +74,7 @@ breadcrumbs:
         </li>
       </ul>
     </div>
-    <div class="panel panel-primary">
-      <header class="panel-heading">
-        <div class="panel-title">Licence</div>
-      </header>
-      <div class="panel-body">
-        <p>All products are released under the Open Government Licence - Canada.</p>
-        <p class="text-center"><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-primary">View</a></p>
-      </div>
-    </div>
+    <div class=""><a href="nhsl_map.html" class="btn btn-primary mrgn-tp-xl btn-block btn-lg" role="button"> View on Map </a></div>
   </div>
 </div>
 
