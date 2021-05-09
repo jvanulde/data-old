@@ -18,6 +18,8 @@ title: OpenDRR
 lang: en
 sitesearch: false
 breadcrumbs:
+  - title: "OpenDRR"
+    link: "https://www.github.com/OpenDRR/"
   - title: "OpenDRR Downloads"
     link: "/en"
   - title: "The National Seismic Risk model for Canada"
