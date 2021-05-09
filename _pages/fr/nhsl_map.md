@@ -27,21 +27,38 @@ breadcrumbs:
 
 # {{ page.contentTitle.fr }}
 
+<mark>Bientôt disponible</mark>
+
 <!-- GeomapStart -->
 <div id="esri_map"
 	class="wb-geomap"
 	data-wb-geomap='{
 		"layersFile": "config-nhsl-fr.js"
 	}'>
-	<div class="row">
-		<div class="col-md-12">
-			<!-- Insert Map Start (mandatory) -->
-			<div class="wb-geomap-map"></div>
-			<!-- Insert Map End -->
-		</div>
-		<!-- Insert Layer Data Start (mandatory) -->
-		<div class="wb-geomap-layers col-md-12"></div>
-		<!-- Insert Layer Data End -->
+<div class="row">
+	<div class="col-md-9 form-group">
+		<!-- Insert Map Start (mandatory) -->
+		<div class="wb-geomap-map"></div>
+		<!-- Insert Map End -->
 	</div>
+	<!-- Insert Legend Start (optional) -->
+	<section class="col-md-3 form-group">
+		<div class="panel panel-default">
+			<header class="panel-heading">
+				<h3 class="panel-title">Légende</h3>
+			</header>
+			<div class="panel-body">
+				<div class="wb-geomap-legend"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Insert Legend End -->
+</div>
+<!-- Insert Layer Data Start (mandatory) -->
+<div class="row">
+	<section>
+		<div class="wb-geomap-layers col-md-12"></div>
+	</section>
+</div>
 </div>
 <!-- GeomapEnd -->
