@@ -63,7 +63,7 @@ Welcome to the OpenDRR data download site. Here you will find the latest version
     <div class="col-md-8">
         <h3>Earthquake Scenarios</h3><mark>Coming soon</mark>
         <p>Library of select earthquake scenarios for Canada.</p>
-        <a href="dsra.html" class="btn btn-primary">Explore</a>
+      <a href="dsra.html" class="btn btn-primary">Explore</a>
     </div>
 </div>
 
