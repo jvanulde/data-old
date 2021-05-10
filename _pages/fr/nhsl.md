@@ -306,7 +306,7 @@ $( document ).ready(function() {
                 <option value="on">{% if page.lang == 'en' %}Ontario{% endif %} {% if page.lang == 'fr' %}Ontario{% endif %}</option> \
                 <option value="mb">{% if page.lang == 'en' %}Manitoba{% endif %} {% if page.lang == 'fr' %}Manitoba{% endif %}</option> \
                 <option value="sk">{% if page.lang == 'en' %}Saskatchewan{% endif %} {% if page.lang == 'fr' %}Saskatchewan{% endif %}</option> \
-                <option value="yk">{% if page.lang == 'en' %}Yukon{% endif %} {% if page.lang == 'fr' %}Yukon{% endif %}</option> \
+                <option value="yt">{% if page.lang == 'en' %}Yukon{% endif %} {% if page.lang == 'fr' %}Yukon{% endif %}</option> \
                 <option value="nt">{% if page.lang == 'en' %}Northwest Territories{% endif %} {% if page.lang == 'fr' %}Territoires du Nord-Ouest{% endif %}</option> \
                 <option value="nu">{% if page.lang == 'en' %}Nunavut{% endif %} {% if page.lang == 'fr' %}Nunavut{% endif %}</option> \
               </select></div></form></div></div>'
