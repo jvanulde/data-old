@@ -104,3 +104,91 @@ div.item .label, div.item .value {
 .prop.wfn {
   background-color:darkkhaki;
 }
+
+.prov_name span {
+  display: none;
+}
+.prov_name.ab.en:after {
+  content: 'Alberta'
+}
+.prov_name.ab.fr:after {
+  content: 'Alberta'
+}
+.prov_name.bc.en:after {
+  content: 'British Columbia'
+}
+.prov_name.bc.fr:after {
+  content: 'Colombie Britannique'
+}
+.prov_name.yt.en:after {
+  content: 'Yukon'
+}
+.prov_name.yt.fr:after {
+  content: 'Yukon'
+}
+.prov_name.on.en:after {
+  content: 'Ontario'
+}
+.prov_name.on.fr:after {
+  content: 'Ontario'
+}
+.prov_name.mb.en:after {
+  content: 'Manitoba'
+}
+.prov_name.mb.fr:after {
+  content: 'Manitoba'
+}
+.prov_name.sk.en:after {
+  content: 'Saskatchewan'
+}
+.prov_name.sl.fr:after {
+  content: 'Saskatchewan'
+}
+.prov_name.qc.en:after {
+  content: 'Québec'
+}
+.prov_name.qc.fr:after {
+  content: 'Québec'
+}
+.prov_name.nu.en:after {
+  content: 'Nunavut'
+}
+.prov_name.nu.fr:after {
+  content: 'Nunavut'
+}
+.prov_name.nu.en:after {
+  content: 'Nunavut'
+}
+.prov_name.nu.fr:after {
+  content: 'Nunavut'
+}
+.prov_name.nt.en:after {
+  content: 'North West Territories'
+}
+.prov_name.nt.fr:after {
+  content: 'Territoires du Nord-Ouest'
+}
+.prov_name.nl.en:after {
+  content: 'Newfoundland and Labrador'
+}
+.prov_name.nl.fr:after {
+  content: 'Terre Neuve et Labrador'
+}
+.prov_name.nb.en:after {
+  content: 'New Brunswick'
+}
+.prov_name.nb.fr:after {
+  content: 'Nouveau Brunswick'
+}
+.prov_name.ns.en:after {
+  content: 'Nova Scotia'
+}
+.prov_name.ns.fr:after {
+  content: 'Nouvelle-Écosse'
+}
+.prov_name.pe.en:after {
+  content: 'Prince Edward Island'
+}
+.prov_name.pe.fr:after {
+  content: 'Île du Prince Édouard'
+}
