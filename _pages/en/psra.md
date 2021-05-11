@@ -8,7 +8,7 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: The National Seismic Risk model for Canada
 lang: en
-altLangPage: /fr/psra
+altLangPage: ../fr/psra
 nositesearch: true
 nomenu: true
 nofooter: true

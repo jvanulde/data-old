@@ -2,16 +2,16 @@
 authorName: Natural Resources Canada
 authorUrl:
 dateModified: 2021-05-07
-altLangPage: /en/nhsl
-nositesearch: true
-nomenu: true
-nofooter: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Zones de peuplement et dangers naturels au Canada
 lang: fr
+altLangPage: ../en/nhsl
+nositesearch: true
+nomenu: true
+nofooter: true
 breadcrumbs:
   - title: "OpenDRR"
     link: "https://www.github.com/OpenDRR/"

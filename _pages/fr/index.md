@@ -9,7 +9,7 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Téléchargements de OpenDRR
 lang: fr
-altLangPage: /en
+altLangPage: ../en
 nositesearch: true
 nomenu: true
 nofooter: true

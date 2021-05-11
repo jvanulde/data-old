@@ -8,7 +8,7 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Earthquake Scenarios
 lang: en
-altLangPage: /fr/dsra
+altLangPage: ../fr/dsra
 nositesearch: true
 nomenu: true
 nofooter: true

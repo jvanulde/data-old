@@ -1,21 +1,18 @@
 ---
-altLangPrefix: nhsl_map
 authorName: Natural Resources Canada
 authorUrl:
-contentTitle:
-  en: Human Settlement and Natural Hazards in Canada
-  fr: Zones de peuplement et dangers naturels au Canada
 dateModified: 2021-05-07
-description:
-  en: ""
-  fr: ""
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: OpenDRR
+title: Zones de peuplement et dangers naturels au Canada
 lang: fr
+altLangPage: ../en/nhsl_map
+nositesearch: true
+nomenu: true
+nofooter: true
 sitesearch: false
 breadcrumbs:
   - title: "OpenDRR"
@@ -26,9 +23,6 @@ breadcrumbs:
     link: "/fr/nhsl"
   - title: "Carte"
 ---
-
-<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
-
 <mark>Bientôt disponible</mark>
 
 <!-- GeomapStart -->

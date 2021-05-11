@@ -8,7 +8,7 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Le modèle national de risque sismique pour le Canada
 lang: fr
-altLangPage: /en/psra
+altLangPage: ../en/psra
 nositesearch: true
 nomenu: true
 nofooter: true

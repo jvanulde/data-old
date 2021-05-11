@@ -9,7 +9,7 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: Scénarios de séismes
 lang: fr
-altLangPage: /en/dsra
+altLangPage: ../en/dsra
 nositesearch: true
 nomenu: true
 nofooter: true
