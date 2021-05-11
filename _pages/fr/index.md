@@ -5,7 +5,7 @@ authorUrl:
 contentTitle:
   en: OpenDRR Downloads
   fr: Téléchargements de OpenDRR
-dateModified: 2020-11-01
+dateModified: 2021-05-07
 description:
   en: Available datasets
   fr: Ensembles de données disponibles
@@ -16,164 +16,55 @@ subject:
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
 title: OpenDRR
 lang: fr
-layout: single-page
 sitesearch: false
+breadcrumbs:
+  - title: "OpenDRR"
+    link: "https://www.github.com/OpenDRR/"
+  - title: "Téléchargements de OpenDRR"
 ---
-# {{ page.contentTitle.fr }}
 
-Bienvenue sur le site de téléchargement des données OpenDRR. Vous trouverez ici les dernières versions de tous les ensembles de données.
+<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
 
-Ces ensembles de données peuvent être téléchargés par province/territoire et par région économique.
+Bienvenue sur le site de téléchargement de données OpenDRR. Vous trouverez ici les dernières versions de tous les jeux de données disponibles.
 
-Actuellement, seul le format GeoPackage (.gpkg) est fourni.
-
-## Parcourir par province
-
-<section>
-
-    {% if site.baseurl =='' %}
-        {% assign lfs_path = '' %}
-    {% else %}
-        {% assign lfs_path = site.lfs_data_url %}
-    {% endif %}
-
-    {% for folder in site.static_files %}
-    {% if folder.path contains '/data/' %}
-        {% assign my_array = folder.path | split: "/" %}
-        {% assign province = my_array[3] %}
-        {% assign provinces = provinces | append: province | append: "," %}
-        {% assign path = my_array[3] | append: "/" | append: my_array[4] | append: "/" | append: my_array[5] %}
-        {% assign paths = paths | append: path | append: "," %}
-        {% assign eruid = my_array[4] %}
-        {% assign eruids = eruids | append: eruid | append: "," %}
-    {% endif %}
-    {% endfor %}
-    
-    {% assign provs = provinces | split: "," | uniq %}
-    {% assign paths = paths | split: "," | uniq %}
-    {% assign eruids = eruids | split: "," | uniq %}
-
-    {% for prov in provs %}
-    <a href="#{{ prov }}" style="text-transform:uppercase">{{ prov }}</a> 
-    {% endfor %}
-    
-    {% for prov in provs %}
-
-        {% assign p = prov | append: '/' %}
-        
-        <div class="{{ prov }}">
-
-        <a name="{{ prov }}"></a>
-
-        <h3 style="text-transform:uppercase">{{ prov }}</h3>
-
-        <table class="table">
-          <tr>
-            <th scope="col" class="col-sm-8"></th>
-            <th scope="col" class="col-sm-2">Date modifiée</th>
-            <th scope="col" class="col-sm-1">Format</th>
-            <th scope="col" class="col-sm-1"></th>
-          </tr>
-        
-        {% for folder in site.static_files %}
-
-            {% if folder.path contains p and folder.extname == '.zip' %}
-
-                {% assign geom = "" %}
-                {% assign icon = "" %}
-                
-                {% if folder.path contains "_b_" %}
-                    {% assign geom = "(Bâtiments)" %}
-                    {% assign icon = "multipoint.svg" %}
-                {% endif %}
-                
-                {% if folder.path contains "_s_" %}
-                    {% assign geom = "(Subdivision de recensement)" %}
-                    {% assign icon = "polygon.svg" %}
-                {% endif %}
-
-                {% assign my_array = folder.path | split: "/" %}
-
-                {% unless my_array[4] == 'er' %}
-
-                  <tr>
-                      <td>
-                          <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
-                          <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                          <span style="text-transform:capitalize">{{ my_array[4] | replace: "_", " " }}</span> <span>{{ geom }}</span>
-                      </td>
-                      <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
-                      <td><span class="label label-default">.gpkg</span></td>
-                      <td>
-                          <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                          <a class="btn btn-primary btn-sm pull-right" href="{{ lfs_path }}{{ folder.path }}">Téléchargement</a>
-                      </td>
-                  </tr>
-
-              {% endunless %}
-
-            {% endif %}
-        {% endfor %}
-        </table>
-
-        <h4>Economic Regions</h4>
-        <table class="table table-hover">
-
-        {% assign eruid = "" %}
-        {% for path in paths %}
-
-            {% if path contains prov %}
-                {% assign pth = path | split: "/" %}
-
-                {% if eruid != pth[2] and pth[0] == prov %}
-                    {% assign eruid = pth[2] %}
-
-                    {% for er in site.data.er.regions %}
-                        {% if er.code == eruid %}
-                            <tr><th scope="col" class="col-sm-8">{{ er.title }} ({{ eruid }})</th><th scope="col" class="col-sm-2">Date modifiée</th><th scope="col" class="col-sm-1">Format</th><th scope="col" class="col-sm-1"></th></tr>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            
-                {% for folder in site.static_files %}
-
-                    {% if folder.path contains path and folder.path contains p and folder.path contains '/er/' and folder.extname == '.zip' %}
-
-                        {% assign geom = "" %}
-                        {% assign icon = "" %}
-                        
-                        {% if folder.path contains "_b_" %}
-                            {% assign geom = "(Bâtiments)" %}
-                            {% assign icon = "multipoint.svg" %}
-                        {% endif %}
-                        
-                        {% if folder.path contains "_s_" %}
-                            {% assign geom = "(Subdivision de recensement)" %}
-                            {% assign icon = "polygon.svg" %}
-                        {% endif %}
-
-                        {% assign my_array = folder.path | split: "/" %}
-                        
-                        <tr>
-                            <td>
-                                <!-- <img width="36" src="{{ site.baseurl }}/assets/img/{{ icon }}" style="margin-right:10px;"/> -->
-                                <!-- <a href="{{ folder.path }}" style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</a> <span>({{ geom }})</span> -->
-                                <span style="text-transform:capitalize">{{ my_array[6] | replace: "_", " " }}</span> <span>{{ geom }}</span>
-                            </td>
-                            <td>{{folder.modified_time | date: "%a, %b %d, %y" }}</td>
-                            <td><span class="label label-default">.gpkg</span></td>
-                            <td>
-                                <!-- <a class="btn btn-primary btn-sm map-link pull-right" href="#" data="{{ folder.path }}">Preview</a> -->
-                                <a class="btn btn-primary btn-sm pull-right" href="{{ lfs_path }}{{ folder.path }}">Téléchargement</a>
-                            </td>
-                        </tr>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-        </table>
-    </div>
-    
-    {% endfor %}
-
+<section class="alert alert-danger">
+    <h3>Status</h3>
+    <p>Toutes les ressources disponibles sur ce site sont en version préliminaire, sauf indication contraire.</p>
 </section>
+
+## Collections disponibles
+
+<div class="row mrgn-tp-xl mrgn-btm-xl">
+    <div class="col-md-4">
+        <img src="../assets/img/nhsl.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
+    </div>
+    <div class="col-md-8">
+        <h3>Zones de peuplement et dangers naturels au Canada</h3>
+        <p>La couche des zones de peuplement au niveau national (couche ZPN) est une collection d’ensembles de données thématiques qui décrivent les caractéristiques physiques, sociales et économiques des centres urbains et des collectivités rurales et éloignées du Canada, ainsi que leur vulnérabilité aux dangers naturels préoccupants.</p>
+        <a href="nhsl.html" class="btn btn-primary">Explorer la collection</a>
+    </div>
+</div>
+<hr>
+<div class="row mrgn-tp-xl mrgn-btm-xl">
+    <div class="col-md-8">
+        <h3>Modèle national de risque sismique <mark>Bientôt disponible</mark></h3>
+        <p>Le modèle national de risque sismique pour le Canada présente un cadre structuré d'indicateurs qui profilent les dimensions physiques, sociales et économiques du risque sismique à l'échelle du quartier.</p>
+        <a href="psra.html" class="btn btn-primary">Explorer la collection</a>
+    </div>
+    <div class="col-md-4">
+        <img src="../assets/img/psra.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
+    </div>
+</div>
+<hr>
+<div class="row mrgn-tp-xl mrgn-btm-xl">
+    <div class="col-md-4">
+        <img src="../assets/img/dsra.png" class="img-rounded img-responsive full-width" alt="Image du Canada">
+    </div>
+    <div class="col-md-8">
+        <h3>Scénarios de tremblement de terre <mark>Bientôt disponible</mark></h3>
+        <p>Bibliothèque de scénarios de séismes sélectionnés pour le Canada.</p>
+        <a href="dsra.html" class="btn btn-primary">Explorer la collection</a>
+    </div>
+</div>
+
+&nbsp;
