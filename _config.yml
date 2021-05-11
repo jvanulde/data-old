@@ -40,7 +40,7 @@ compress_html:
   blanklines: true
   profile: false
 quiet: false
-timezone: America/Toronto # Timezone for blog posts and alike
+timezone: America/Vancouver # Timezone for blog posts and alike
 themeJS: true
 verbose: false
 
@@ -63,11 +63,12 @@ analytics_adobe: ""
 analytics_google: ""
 analytics_google_anonymize_ip: ""
 assets: "https://wet-boew.github.io/themes-dist"
-baseurl: ""
+baseurl: "data"
+lfspath: "https://www.github.com/OpenDRR/data/raw/main" # set this if you're using git-lfs as: https://www.github.com/jvanulde/data//raw/<git repo name>
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 description:
-  en: "Jekyll variant for GCWeb theme" # English site description and default description
-  fr: "Adaption Jekyll du theme GCWeb" # French site description and default description
+  en: "OpenDRR Downloads" # English site description and default description
+  fr: "Téléchargements de OpenDRR" # French site description and default description
 
 defaults:
   -
@@ -276,7 +277,7 @@ defaults:
       stylesheets:
 
 encoding: utf-8 # Make sure the encoding is right
-email: ""
+email: "GSC.info.CGC@NRCan.gc.ca"
 repo: "https://github.com/wet-boew/gcweb-jekyll"
 # service_worker: false # Will turn off the service worker if set to false
 stylesheets:
@@ -284,5 +285,6 @@ stylesheets:
     integrity: "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin: "anonymous"
 theme-name: GCWeb
-title: "gcweb-jekyll" # Site name or title
+title: "OpenDRR" # Site name or title
 wetSiteRoot: "https://wet-boew.github.io/wet-boew"
+leaflet: "leaflet@1.6.0"
