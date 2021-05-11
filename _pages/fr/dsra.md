@@ -22,7 +22,7 @@ breadcrumbs:
 ---
 <div class="row">
   <div class="col-md-8">
-    <p>{{ page.description.fr }}</p>
+    <p>Bibliothèque de scénarios de séismes sélectionnés pour le Canada.</p>
     <section class="jumbotron">
       <p>Tous les produits sont publiés sous la licence du gouvernement ouvert – Canada.</p>
       <p><a href="https://open.canada.ca/fr/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Voir</a></p>

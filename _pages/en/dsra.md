@@ -21,7 +21,7 @@ breadcrumbs:
 ---
 <div class="row">
   <div class="col-md-8">
-    <p>{{ page.description.en }}</p>
+    <p>Library of select earthquake scenarios for Canada.</p>
     <section class="jumbotron">
       <p>All products are released under the Open Government Licence - Canada.</p>
       <p><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Learn more</a></p>
