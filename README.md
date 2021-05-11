@@ -50,8 +50,6 @@
 
 Note this manual integration of Leaflet was taken from: https://robyremzy.github.io/blog/2016/leaflet-inside-a-post/
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -93,9 +91,8 @@ Project Link: [https://github.com/OpenDRR/data](https://github.com/OpenDRR/data)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
 * [Web Experience Toolkit](https://github.com/wet-boew/wet-boew)
 * [Jekyll Data Pages Generator](https://github.com/avillafiorita/jekyll-datapage_gen)
 * [Leaflet](https://leafletjs.com/)
 * [GitHub Pages](https://pages.github.com)
-
-
