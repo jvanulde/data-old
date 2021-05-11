@@ -27,7 +27,7 @@ breadcrumbs:
   - title: "Carte"
 ---
 
-# {{ page.contentTitle.fr }}
+<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
 
 <mark>Bientôt disponible</mark>
 

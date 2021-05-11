@@ -276,12 +276,12 @@ defaults:
       noMainContainer: false
       noContentTitle: false
       share: true
-      sitemenu: true
+      sitemenu: false
       sitesearch: true
       stylesheets:
 
 encoding: utf-8 # Make sure the encoding is right
-email: ""
+email: "GSC.info.CGC@NRCan.gc.ca"
 repo: "https://github.com/wet-boew/gcweb-jekyll"
 # service_worker: false # Will turn off the service worker if set to false
 stylesheets:

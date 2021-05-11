@@ -26,8 +26,7 @@ breadcrumbs:
     link: "/en/nhsl"
   - title: "Map"
 ---
-
-# {{ page.contentTitle.en }}
+<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
 
 <mark>Coming Soon</mark>
 

@@ -24,7 +24,8 @@ breadcrumbs:
     link: "/fr"
   - title: "Le modèle national de risque sismique pour le Canada"
 ---
-# {{ page.contentTitle.fr }}
+
+<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
 
 <div class="row">
   <div class="col-md-8">

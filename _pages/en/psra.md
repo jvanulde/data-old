@@ -24,7 +24,7 @@ breadcrumbs:
     link: "/en"
   - title: "The National Seismic Risk model for Canada"
 ---
-# {{ page.contentTitle.en }}
+<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
 
 <div class="row">
   <div class="col-md-8">

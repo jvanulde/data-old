@@ -24,8 +24,7 @@ breadcrumbs:
     link: "/en"
   - title: "Human Settlement and Natural Hazards in Canada"
 ---
-
-# {{ page.contentTitle.en }}
+<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
 
 <p><strong>The National Human Settlement Layer (NHSL) is a collection of thematic datasets that describe the physical, social and economic characteristics of urban centres and rural/remote communities across Canada, and their vulnerability to natural hazards of concern.  Detailed information on land use, buildings, people and capital assets are provided at the Census Dissemination Area administrative level for more than 454,000 settled areas across Canada.</strong></p>
 

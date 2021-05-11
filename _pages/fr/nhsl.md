@@ -24,7 +24,8 @@ breadcrumbs:
     link: "/fr"
   - title: "Zones de peuplement et dangers naturels au Canada"
 ---
-# {{ page.contentTitle.fr }}
+
+<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
 
 <p><strong>La couche des zones de peuplement au niveau national (couche ZPN) est une collection d’ensembles de données thématiques qui décrivent les caractéristiques physiques, sociales et économiques des centres urbains et des collectivités rurales et éloignées du Canada, ainsi que leur vulnérabilité aux dangers naturels préoccupants. Des renseignements détaillés sur l’utilisation des terres, les bâtiments, les gens et les immobilisations sont fournis au niveau administratif des aires de diffusion du recensement pour plus de 454 000 régions habitées à travers le Canada.</strong></p>
 <div class="row">

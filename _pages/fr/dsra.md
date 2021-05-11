@@ -24,7 +24,7 @@ breadcrumbs:
     link: "/fr"
   - title: "Scénarios de tremblement de terre"
 ---
-# {{ page.contentTitle.fr }}
+<h1 id="wb-cont">{{ page.contentTitle.fr }}</h1>
 
 <div class="row">
   <div class="col-md-8">
