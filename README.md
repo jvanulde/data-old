@@ -1,156 +1,99 @@
-# Jekyll theme for GCweb
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md) [![Build Status](https://travis-ci.org/wet-boew/gcweb-jekyll.svg?branch=master)](https://travis-ci.org/wet-boew/gcweb-jekyll) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-gcweb.svg)](https://badge.fury.io/rb/jekyll-theme-gcweb)
+# data
 
-*GCweb is a Jekyll theme for Government of Canada websites. You can [preview the theme to see what it looks like](http://wet-boew.github.io/gcweb-jekyll), or even [use it today](#usage).*
+Data download site for OpenDRR
 
-## Usage
+https://opendrr.github.io/data/
 
-> **_NOTE:_** GCweb is the default theme for Government of Canada websites, but you can still specify the theme you're using as below.
+## Getting Started
 
-To use the GCweb theme:
+### Installation
 
-1. Add the following to your site's `_config.yml`:
+1. Clone the repo
+2. Deploy locally
 
-    ```yml
-    theme: jekyll-theme-gcweb
-    ```
-
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
-
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
-
-
-
-## Customizing
-
-### Configuration variables
-
-GCweb will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. [Copy the original template](https://github.com/wet-boew/gcweb-jekyll/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+ `bundle exec jekyll serve`
 
 ## Roadmap
 
-See the [open issues](https://github.com/wet-boew/gcweb-jekyll/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/OpenDRR/data/issues) for a list of proposed features (and known issues).
 
-## Project philosophy
+## Contributing
 
-The GCweb theme is intended to make it quick and easy for Government of Canada employees to create their first (or 100th) website of GitHub for their organisation. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## How to Contribute
+### Prerequisites
+* GitLFS installed (https://git-lfs.github.com)
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+### Steps
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-------
-_(French version will be available shortly)_
+## License
 
-# Le thème Jekyll de GCweb
-[![Build Status](https://travis-ci.org/wet-boew/gcweb-jekyll.svg?branch=master)](https://travis-ci.org/wet-boew/gcweb-jekyll) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-gcweb.svg)](https://badge.fury.io/rb/jekyll-theme-gcweb)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-*gcweb-jeckyll est un the Jekyll pour les sites web du gouvernement du Canada. Vous pouvez [voir un aperçu du thème pour avoir une idée de ce à quoi cela ressemble](http://wet-boew.github.io/gcweb-jekyll), ou sinon [vous pouvez l'utiliser maintenant](#utlisitation).*
+## Contact
 
-## Utilisation
+Nicky Hastings, Project Lead - nicky.hastings@canada.ca
 
-> **_REMARQUE :_** GCweb is the default theme for Government of Canada websites, but you can still specify the theme you're using as below.
+Joost van Ulden, Technical Lead - [jvanulde](https://github.com/jvanulde) - joost.vanulden@canada.ca
 
-To use the GCweb theme:
+Project Link: [https://opendrr.github.io](https://opendrr.github.io)
 
-1. Add the following to your site's `_config.yml`:
+## Acknowledgements
+* [Web Experience Toolkit](https://github.com/wet-boew/wet-boew)
+* [GitHub Pages](https://pages.github.com)
 
-    ```yml
-    theme: jekyll-theme-gcweb
-    ```
+---
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+# data
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+Site de téléchargement de données pour OpenDRR
 
+https://opendrr.github.io/data/
 
+## Démarrage
 
-## Customizing
+### Installation
 
-### Configuration variables
+1. Clonez le repo
+2. Déployer localement
 
-GCweb will respect the following variables, if set in your site's `_config.yml`:
+ `bundle exec jekyll serve`
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+## Feuille de route
 
-Additionally, you may choose to set the following optional variables:
+Voir le [open issues](https://github.com/OpenDRR/data/issues) pour une liste des fonctionnalités proposées (et des problèmes connus).
 
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
+## Contribuer
 
-### Stylesheet
+Les contributions sont ce qui fait de la communauté open source un endroit si incroyable pour apprendre, inspirer et créer. Toutes les contributions que vous faites sont **grandement appréciées**.
 
-If you'd like to add your own custom styles:
+### Pré-requis
+* GitLFS installé (https://git-lfs.github.com)
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+### Étapes
+1. Fork le projet
+2. Créez votre branche Feature (`git checkout -b feature/AmazingFeature`)
+3. Validez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une demande de retrait
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+## Licence
 
-### Layouts
+Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
 
-If you'd like to change the theme's HTML layout:
+## Contact
 
-1. [Copy the original template](https://github.com/wet-boew/gcweb-jekyll/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-2. Create a file called `/_layouts/default.html` in your site
-3. Paste the default layout content copied in the first step
-4. Customize the layout as you'd like
+Nicky Hastings, chef de projet - nicky.hastings@canada.ca
 
-## Roadmap
+Joost van Ulden, responsable technique - [jvanulde](https://github.com/jvanulde) - joost.vanulden@canada.ca
 
-See the [open issues](https://github.com/wet-boew/gcweb-jekyll/issues) for a list of proposed features (and known issues).
+Lien vers le projet : [https://opendrr.github.io](https://opendrr.github.io)
 
-## Project philosophy
-
-The GCweb theme is intended to make it quick and easy for Government of Canada employees to create their first (or 100th) website of GitHub for their organisation. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Comment contribuer
-
-Voir [CONTRIBUTING.md](CONTRIBUTING.md)
+## Remerciements
+* [Web Experience Toolkit](https://github.com/wet-boew/wet-boew)
+* [Pages GitHub](https://pages.github.com)
