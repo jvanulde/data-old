@@ -1,30 +1,23 @@
 ---
-altLangPrefix: index
 authorName: Natural Resources Canada
 authorUrl:
-contentTitle:
-  en: OpenDRR Downloads
-  fr: Téléchargements de OpenDRR
 dateModified: 2021-05-07
-description:
-  en: Available datasets
-  fr: Ensembles de données disponibles
 noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: OpenDRR
+title: OpenDRR Downloads
 lang: en
-sitesearch: false
-footer: false
+altLangPage: /fr
+nositesearch: true
+nomenu: true
+nofooter: true
 breadcrumbs:
   - title: "OpenDRR"
     link: "https://www.github.com/OpenDRR/"
   - title: "OpenDRR Downloads"
 ---
-<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
-
 Welcome to the OpenDRR data download site. Here you will find the latest versions of all available datasets.
 
 <section class="alert alert-danger">
