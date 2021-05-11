@@ -1,22 +1,17 @@
 ---
-altLangPrefix: nhsl
 authorName: Natural Resources Canada
 authorUrl:
-contentTitle:
-  en: Human Settlement and Natural Hazards in Canada
-  fr: Zones de peuplement et dangers naturels au Canada
 dateModified: 2021-05-07
-description:
-  en: ""
-  fr: ""
-noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: OpenDRR
+title: Human Settlement and Natural Hazards in Canada
 lang: en
-sitesearch: false
+altLangPage: /fr/nhsl
+nositesearch: true
+nomenu: true
+nofooter: true
 breadcrumbs:
   - title: "OpenDRR"
     link: "https://www.github.com/OpenDRR/"
@@ -24,8 +19,6 @@ breadcrumbs:
     link: "/en"
   - title: "Human Settlement and Natural Hazards in Canada"
 ---
-<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
-
 <p><strong>The National Human Settlement Layer (NHSL) is a collection of thematic datasets that describe the physical, social and economic characteristics of urban centres and rural/remote communities across Canada, and their vulnerability to natural hazards of concern.  Detailed information on land use, buildings, people and capital assets are provided at the Census Dissemination Area administrative level for more than 454,000 settled areas across Canada.</strong></p>
 
 <div class="row">
@@ -101,27 +94,6 @@ breadcrumbs:
 
 <div id="nhsl_physical_exposure_all_indicators"></div>
 
-<!-- ### Régions disponibles -->
-
-<div class="row hidden">
-    <ul>
-        <!-- <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=ca'">National</a></li> -->
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=ab">Alberta</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=bc">British Columbia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=mb'">Manitoba</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=nb">New Brunswick</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=nl">Newfoundland and Labrador</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=nt">Northwest Territories</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=ns">Nova Scotia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=nu">Nunavut</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=on">Ontario</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=pe">Prince Edward Island</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=qc">Quebec</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=sk">Saskatchewan</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_physical_exposure_all_indicators&region=yt">Yukon Territory</a></li>
-    </ul>
-</div>
-
 <hr>
 
 <a name="hazard_threat"></a>
@@ -148,27 +120,6 @@ breadcrumbs:
 
 <div id="nhsl_hazard_threat_all_indicators" class="hidden"></div>
 
-<!-- ### Régions disponibles -->
-
-<div class="row hidden">
-    <ul>
-        <!-- <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=ca">National</a></li> -->
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=ab">Alberta</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=bc">British Columbia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=mb'">Manitoba</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=nb">New Brunswick</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=nl">Newfoundland and Labrador</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=nt">Northwest Territories</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=ns">Nova Scotia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=nu">Nunavut</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=on">Ontario</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=pe">Prince Edward Island</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=qc">Quebec</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=sk">Saskatchewan</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_hazard_threat_all_indicators&region=yt">Yukon Territory</a></li>
-    </ul>
-</div>
-
 <hr>
 
 <a name="social_fabric"></a>
@@ -184,27 +135,6 @@ breadcrumbs:
 ### Data Resources
 
 <div id="nhsl_social_fabric_all_indicators"></div>
-
-<!-- ### Régions disponibles -->
-
-<div class="row hidden">
-    <ul>
-        <!-- <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=ca'">National</a></li> -->
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=ab">Alberta</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=bc">British Columbia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=mb'">Manitoba</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=nb">New Brunswick</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=nl">Newfoundland and Labrador</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=nt">Northwest Territories</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=ns">Nova Scotia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=nu">Nunavut</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=on">Ontario</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=pe">Prince Edward Island</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=qc">Quebec</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=sk">Saskatchewan</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_social_fabric_all_indicators&region=yt">Yukon Territory</a></li>
-    </ul>
-</div>
 
 <hr>
 
@@ -223,26 +153,6 @@ breadcrumbs:
 
 <div id="nhsl_risk_dynamics_all_indicators"></div>
 
-<!-- ### Régions disponibles -->
-
-<div class="row hidden">
-    <ul>
-        <!-- <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=ca'">National</a></li> -->
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=ab">Alberta</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=bc">British Columbia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=mb'">Manitoba</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=nb">New Brunswick</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=nl">Newfoundland and Labrador</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=nt">Northwest Territories</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=ns">Norva Scotia</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=nu">Nunavut</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=on">Ontario</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=pe">Prince Edward Island</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=qc">Quebec</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=sk">Saskatchewan</a></li>
-        <li class="col-md-4"><a href="map.html?id=nhsl_risk_dynamics_all_indicators&region=yt">Yukon Territory</a></li>
-    </ul>
-</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.12.2.min.js"
