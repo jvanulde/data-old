@@ -31,7 +31,6 @@ exclude:
 
 # 3. Gem settings
 
-
 # 4. Jekyll settings
 compress_html:
   clippings: all
@@ -48,7 +47,6 @@ verbose: false
 # 5. Collections
 
 # 6. Jekyll collections settings
-
 collections:
   pages:
     output: true
@@ -59,21 +57,18 @@ collections:
       altLangPrefix: home
       layout: page
       pageclass: home
-  classifications:
-    output: true
-    permalink: /classifications/:path
 
 # 7. Site settings
 analytics_adobe: ""
 analytics_google: ""
 analytics_google_anonymize_ip: ""
-assets: "https://wet-boew.github.io/themes-dist/GCWeb"
-baseurl: "/data" # set this to your GitHub project name
+assets: "https://wet-boew.github.io/themes-dist"
+baseurl: "data"
 lfspath: "https://www.github.com/OpenDRR/data/raw/main" # set this if you're using git-lfs as: https://www.github.com/jvanulde/data//raw/<git repo name>
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 description:
   en: "OpenDRR Downloads" # English site description and default description
-  fr: "OpenDRR Downloads" # French site description and default description
+  fr: "Téléchargements de OpenDRR" # French site description and default description
 
 defaults:
   -
@@ -269,14 +264,15 @@ defaults:
         tmpl-you-are-here:
           en: You are here
           fr: Vous êtes ici&#160;
-      layout: "page"
+#      layout: "page"
+      layout: default
       javascripts:
       lang: "en"
       langtoggle: true
       noMainContainer: false
       noContentTitle: false
       share: true
-      sitemenu: false
+      sitemenu: true
       sitesearch: true
       stylesheets:
 
