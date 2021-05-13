@@ -1,22 +1,17 @@
 ---
-altLangPrefix: dsra
 authorName: Natural Resources Canada
 authorUrl:
-contentTitle:
-  en: Earthquake Scenarios
-  fr: Scénarios de tremblement de terre
 dateModified: 2021-05-07
-description:
-  en: "Library of select earthquake scenarios for Canada."
-  fr: "Bibliothèque de scénarios de séismes sélectionnés pour le Canada."
-noContentTitle: true
 pageclass: wb-prettify all-pre
 subject:
   en: [GV Government and Politics, Government services]
   fr: [GV Gouvernement et vie politique, Services gouvernementaux]
-title: OpenDRR
+title: Earthquake Scenarios
 lang: en
-sitesearch: false
+altLangPage: ../fr/dsra
+nositesearch: true
+nomenu: true
+nofooter: true
 breadcrumbs:
   - title: "OpenDRR"
     link: "https://www.github.com/OpenDRR/"
@@ -24,11 +19,9 @@ breadcrumbs:
     link: "/en"
   - title: "Earthquake Scenarios"
 ---
-<h1 id="wb-cont">{{ page.contentTitle.en }}</h1>
-
 <div class="row">
   <div class="col-md-8">
-    <p>{{ page.description.en }}</p>
+    <p>Library of select earthquake scenarios for Canada.</p>
     <section class="jumbotron">
       <p>All products are released under the Open Government Licence - Canada.</p>
       <p><a href="https://open.canada.ca/en/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Learn more</a></p>
