@@ -49,9 +49,17 @@
           "name": "Data dictionary",
           "type": "Document",
           "format": "EXCEL",
-          "language": "en-fr",
+          "language": "en",
           "region": "ca",
-          "link": "/assets/data/national_human_settlement_layers/nhsl_social_fabric_attributes.xlsx"
+          "link": "/assets/data/national_human_settlement_layers/nhsl_social_fabric_attributes_en.xlsx"
+        },
+        { 
+          "name": "Dictionnaire de données",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "fr",
+          "region": "ca",
+          "link": "/assets/data/national_human_settlement_layers/nhsl_social_fabric_attributes_fr.xlsx"
         },
         { 
           "name": "Social Fabric and Capacity Thresholds (AB)",
@@ -511,9 +519,17 @@
           "name": "Data dictionary",
           "type": "Document",
           "format": "EXCEL",
-          "language": "en-fr",
+          "language": "en",
           "region": "ca",
-          "link": "/assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes.xlsx"
+          "link": "/assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes_en.xlsx"
+        },
+        { 
+          "name": "Dictionnaire de données",
+          "type": "Document",
+          "format": "EXCEL",
+          "language": "fr",
+          "region": "ca",
+          "link": "/assets/data/national_human_settlement_layers/nhsl_physical_exposure_attributes_fr.xlsx"
         },
         { 
           "name": "Physical Exposure polygon geometry (AB)",
