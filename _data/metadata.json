@@ -17,8 +17,8 @@
       "map_type": "esri_rest",
       "map_layer": "4",
       "map_url": {
-        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer",
-        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer"
+        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_en/MapServer",
+        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_fr/MapServer"
       },
       "resources": [
         { 
@@ -27,7 +27,7 @@
           "format": "ESRI REST",
           "language": "en",
           "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/4"
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_en/MapServer"
         },
         { 
           "name": "Tissu social et seuils de capacité (Canada)",
@@ -35,7 +35,7 @@
           "format": "ESRI REST",
           "language": "fr",
           "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/4"
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/social_fabric_fr/MapServer"
         },
         { 
           "name": "Social Fabric and Capacity Thresholds (Canada)",
@@ -463,8 +463,8 @@
       "map_type": "esri_rest",
       "map_layer": "5",
       "map_url": {
-        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer",
-        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer"
+        "en": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_en/MapServer",
+        "fr": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_fr/MapServer"
       },
       "resources": [
         { 
@@ -473,7 +473,7 @@
           "format": "ESRI REST",
           "language": "en",
           "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/5"
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_en/MapServer"
         },
         { 
           "name": "Géométrie des polygones du exposition physique (Canada)",
@@ -481,23 +481,7 @@
           "format": "ESRI REST",
           "language": "fr",
           "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/5"
-        },
-        { 
-          "name": "Physical Exposure point geometry (Canada)",
-          "type": "Web Service",
-          "format": "ESRI REST",
-          "language": "en",
-          "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_en/MapServer/2"
-        },
-        { 
-          "name": "Géométrie des points du exposition physique (Canada)",
-          "type": "Web Service",
-          "format": "ESRI REST",
-          "language": "fr",
-          "region": "ca",
-          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/nhsl_fr/MapServer/2"
+          "link": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/physical_exposure_fr/MapServer"
         },
         { 
           "name": "Physical Exposure polygon geometry (Canada)",
@@ -898,6 +882,18 @@
       "collection": {
         "en": "National Seismic Risk Model",
         "fr": "Modèle national de risque sismique"
+      },
+      "title": {
+        "en": "Seismic Risk",
+        "fr": "Risque sismique"
+      }
+    }
+    ,
+    {
+      "id": "psra_bc_all_indicators",
+      "collection": {
+        "en": "Earthquake Scenarios",
+        "fr": "Scénarios de séismes"
       },
       "title": {
         "en": "Seismic Risk",
