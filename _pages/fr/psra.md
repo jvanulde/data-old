@@ -27,7 +27,7 @@ breadcrumbs:
     <p>Les modèles et le cadre d'indicateurs qui les accompagnent sont conçus pour soutenir la mise en œuvre du Cadre de Sendai pour la réduction des risques de catastrophe à l'échelle locale et régionale (Nations Unies, 2015 : SFDRR) -- et pour aider à renforcer les capacités d'intégration d'une optique de résilience aux catastrophes dans les initiatives en cours de gestion des urgences, d'utilisation durable des terres et de planification financière au Canada.</p>
     <section class="jumbotron">
       <p>Tous les produits sont publiés sous la licence du gouvernement ouvert – Canada.</p>
-      <p><a href="https://open.canada.ca/fr/open-government-licence-canada" class="btn btn-info btn-lg" role="button">Voir</a></p>
+      <p><a href="https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada" class="btn btn-info btn-lg" role="button">Voir</a></p>
     </section>
   </div>
   <div class="col-md-4">
