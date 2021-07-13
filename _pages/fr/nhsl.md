@@ -193,7 +193,7 @@ $( document ).ready(function() {
 
                 let lang = r.language == "en" ? "English" : "French";
                 let btntxt = "{{lang}}" == "en" ? "Access" : "Accès";
-                let download_link = r.link.indexOf( "http" ) === -1 ? '{{site.lfspath}}' + r.link : r.link;
+                let download_link = r.link.indexOf( "http" ) === -1 ? '{{site.download_baseurl}}/{{site.release_tag}}/' + r.link.split('/').pop() : r.link;
 
                 if ( r.region === 'ca' ) {
                     resrcs += '<tr><td>' + r.name + '</td><td class="hidden-xs">' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td><a href="' + download_link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';
