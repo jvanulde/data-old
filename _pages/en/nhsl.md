@@ -194,7 +194,7 @@ breadcrumbs:
 
                   let lang = r.language == "en" ? "English" : "French";
                   let btntxt = "{{page.lang}}" == "en" ? "Access" : "Accès";
-                  let download_link = r.link.indexOf( "http" ) === -1 ? '{{site.download_baseurl}}/{{site.release_tag}}/' + r.link.split('/').pop() : r.link;
+                  let download_link = r.link.indexOf( "http" ) === -1 ? '{{site.github.releases_url}}/download/{{site.github.releases[0].tag_name}}/' + r.link : r.link;
 
                   if ( r.region === 'ca' ) {
                       resrcs += '<tr><td>' + r.name + '</td><td class="hidden-xs">' + r.type + '</td><td><span class="label ' + r.format + '">' + r.format + '</td><td><a href="' + download_link + '" class="btn btn-primary">' + btntxt + '</a></td></tr>';

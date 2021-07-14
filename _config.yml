@@ -64,8 +64,6 @@ analytics_google: "G-19T5RKNSMJ"
 analytics_google_anonymize_ip: ""
 assets: "https://wet-boew.github.io/themes-dist"
 baseurl: "/data"
-download_baseurl: "https://github.com/OpenDRR/data/releases/download"
-release_tag: "v1.2"  # Update this before creating a new release
 css_inline: false # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 description:
   en: "OpenDRR Downloads" # English site description and default description
