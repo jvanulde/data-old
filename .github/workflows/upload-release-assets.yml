@@ -1,0 +1,66 @@
+name: Upload datasets as release assets
+
+# This GitHub Actions workflow uploads all files under the assets/data/
+# directory, mainly ZIP-compressed GeoPackage files, as release assets,
+# to be referenced from the OpenDRR data website for public download.
+
+on:
+  push:
+    #branches:
+    #  - main
+    tags:
+      - 'v*'
+  #pull_request:
+  #  branches:
+  #    - main
+  schedule:
+    - cron: '38 2 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  upload-release-assets:
+    runs-on: ubuntu-20.04
+    if: "!contains(github.event.head_commit.message, '[ci skip]') && !contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # See https://github.com/actions/checkout/issues/165
+      - name: Cache Git LFS
+        uses: actions/cache@v2
+        with:
+          path: .git/lfs
+          key: ${{ runner.os }}-lfs-${{ hashFiles('**/*.zip') }} # Adapt to target the type of the files committed with git lfs
+          restore-keys: |
+            ${{ runner.os }}-lfs-${{ hashFiles('**/*.zip') }}
+            ${{ runner.os }}-lfs-
+
+      - name: Pre-run information
+        if: ${{ github.event_name != 'schedule' }}
+        run: |
+          set -x
+          ls -l
+          df -h
+          whoami
+          cat /etc/os-release
+          docker ps
+
+      - name: Git LFS pull
+        run: stdbuf -oL git lfs pull
+
+      - name: Upload as release assets on GitHub
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: assets/data/**
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Post-run information
+        if: ${{ github.event_name != 'schedule' }}
+        run: |
+          set -x
+          ls -l
+          du -csh *
+          du -csh .git/lfs
+          df -h /
