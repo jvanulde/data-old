@@ -23,7 +23,7 @@ breadcrumbs:
   - title: "Map"
 ---
 
-<iframe src="https://dashboard.stage.riskprofiler.ca/s/public/app/dashboards?auth_provider_hint=anonymous1#/view/a8345580-e4f3-11eb-9186-0f972b09bc2f?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))" height="600" width="100%" style="border:none;"></iframe>
+<iframe src="https://dashboard.stage.riskprofiler.ca/s/public/app/dashboards?auth_provider_hint=anonymous1#/view/a8345580-e4f3-11eb-9186-0f972b09bc2f?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-15m%2Cto%3Anow))&hide-filter-bar=true" height="600" width="100%" style="border:none;"></iframe>
 
 <mark>Coming Soon</mark>
 
