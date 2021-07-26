@@ -40,6 +40,9 @@ crossorigin=""></script>
 <!-- Load Esri Leaflet Renderers plugin to use feature service symbology -->
 <script src="https://unpkg.com/esri-leaflet-renderers@2.1.2" crossorigin=""></script>
 
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
  <style>
@@ -222,6 +225,7 @@ crossorigin=""></script>
   });
 
   var map = L.map( 'map', {
+    fullscreenControl: true,
     center: [ 49.2827, -123.1207 ],
     zoom: 12,
     layers: [ tiles ]
@@ -230,6 +234,10 @@ crossorigin=""></script>
 
   map.on( 'overlayadd', function() {
     $( '#map' ).before( '<div id="modal"></div>' );
+  });
+
+  map.on( 'fullscreenchange', function () {
+    map.invalidateSize();
   });
 
   var overlays = {
