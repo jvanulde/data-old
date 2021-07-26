@@ -67,7 +67,6 @@ breadcrumbs:
         </li>
       </ul>
     </div>
-    <a href="nhsl_map.html" class="btn btn-primary mrgn-tp-xl btn-block btn-lg" role="button">Voir sur la carte</a>
   </div>
 </div>
 
@@ -77,7 +76,14 @@ breadcrumbs:
 
 ## Exposition physique
 
-<p><strong>L’élément « exposition physique » de la couche des zones de peuplement au niveau national (couche ZPN) comprend une délinéation des aires bâties et des catégories d’utilisation fonctionnelle des terres pour les aires de diffusion du recensement dans les centres urbains et les collectivités rurales et éloignées du Canada.</strong></p>
+<p>
+  <div class="card" style="float:left;margin:10px 20px 0px 0px;">
+    <img src="/assets/img/nhsl_physical_exposure.png" width="250" class="img-rounded"/>
+    <div class="card-body">
+      <a href="nhsl_physical_exposure_map.html" class="btn btn-primary btn-lg btn-block mrgn-tp-sm" role="button"> Voir sur la carte </a>
+    </div>
+  </div>
+  <strong>L’élément « exposition physique » de la couche des zones de peuplement au niveau national (couche ZPN) comprend une délinéation des aires bâties et des catégories d’utilisation fonctionnelle des terres pour les aires de diffusion du recensement dans les centres urbains et les collectivités rurales et éloignées du Canada.</strong></p>
 
 <p>Il fournit des renseignements détaillés sur le type de construction, l’occupation et le niveau de conception de plus de 9,1 millions de bâtiments; la dynamique de la population à diverses heures de la journée pour 35,1 millions de personnes; et une évaluation des immobilisations des bâtiments et de leur contenu totalisant plus de 8300 milliards de dollars canadiens.</p>
 
@@ -125,7 +131,14 @@ breadcrumbs:
 
 ## Tissu social et seuils de capacité
 
-<p><strong>L’élément « tissu social » de la couche des zones de peuplement au niveau national (couche ZPN) utilise les données démographiques de recensement disponibles pour évaluer les profils spatiaux généraux de la sensibilité ainsi que la capacité des quartiers à résister aux événements catastrophiques, et à s’en rétablir, en fonction des caractéristiques du logement, de la structure familiale, de l’autonomie individuelle et des systèmes financiers.</strong></p>
+<p>
+  <div class="card" style="float:left;margin:10px 20px 0px 0px;">
+    <img src="/assets/img/nhsl_social_fabric.png" width="250" class="img-rounded"/>
+    <div class="card-body">
+      <a href="nhsl_social_fabric_map.html" class="btn btn-primary btn-lg btn-block mrgn-tp-sm" role="button"> Voir sur la carte </a>
+    </div>
+  </div>
+  <strong>L’élément « tissu social » de la couche des zones de peuplement au niveau national (couche ZPN) utilise les données démographiques de recensement disponibles pour évaluer les profils spatiaux généraux de la sensibilité ainsi que la capacité des quartiers à résister aux événements catastrophiques, et à s’en rétablir, en fonction des caractéristiques du logement, de la structure familiale, de l’autonomie individuelle et des systèmes financiers.</strong></p>
 
 <p>Des indicateurs de la vulnérabilité et du seuil de capacité aident à cerner les tendances sous-jacentes de l’inégalité sociale qui pourrait exister au sein d’une collectivité ou d’une région donnée, et de trouver qui est le plus susceptible d’avoir à assumer le plus grand fardeau de risque après un événement catastrophique. Les niveaux de vulnérabilité de chaque élément de l’indice de vulnérabilité sociale sont évalués au moyen de méthodes analytiques adaptées du « modèle des dangers des lieux » de Cutter pour filtrer et classer des variables démographiques en fonction de leur capacité à expliquer les profils spatiaux pour un large éventail d’archétypes communautaires, y compris les centres urbains à forte densité, les régions suburbaines et rurbaines avoisinantes, et les peuplements ruraux et éloignés plus distants.</p>
 

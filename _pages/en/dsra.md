@@ -46,6 +46,22 @@ breadcrumbs:
   </div>
 </div>
 
-## <mark>Coming soon</mark>
+| Name                                | ACM7p3_LeechRiverFullFault                                                                                                                                                                                |
+|:------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| magnitude                           | 7.3                                                                                                                                                                                                       |
+| latitude                            | 48.405 degrees                                                                                                                                                                                            |
+| longitude                           | -123.412 degrees                                                                                                                                                                                          |
+| maximum_peak_ground_acceleration    | 0.633 g                                                                                                                                                                                                   |
+| recurrence rate                     | 7,500 years*                                                                                                                                                                                              |
+|                                     | *For Cascadia, Leech River, and Devil's Mountain Faults these are characteristic earthquakes, else they are recurrence interval for an event of equal or greater magnitude in the scenario source region. |
+| cost                                | $19,533,572,079                                                                                                                                                                                           |
+| redtag                              | 6,861 buildings                                                                                                                                                                                           |
+| displaced                           | 140,971 people                                                                                                                                                                                            |
+| deaths                              | 986 people                                                                                                                                                                                                |
+| critical_injuries_and_entrapments   | 487 people                                                                                                                                                                                                |
+| all_hospitalizations                | 3,685 people                                                                                                                                                                                              |
+| epicentre_map                       | ![Epicentre](https://github.com/OpenDRR/earthquake-scenarios/blob/master/FINISHED/ACM7p3_LeechRiverFullFault.png)                                                                                                                                                              |
+                           |
+| description                         | Magnitude 7.3 scenario based on complete rupture of the CanSHM6 Hazard Model implementation of the Leech River Full Fault.                                                                                |
 
 &nbsp;
