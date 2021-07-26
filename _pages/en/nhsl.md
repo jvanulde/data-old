@@ -79,7 +79,7 @@ breadcrumbs:
 
 <p>
   <div class="card" style="float:left;margin:10px 20px 0px 0px;">
-    <img src="/assets/img/nhsl_physical_exposure.png" width="250" class="img-rounded"/>
+    <img src="../assets/img/nhsl_physical_exposure.png" width="250" class="img-rounded"/>
     <div class="card-body">
       <a href="nhsl_physical_exposure_map.html" class="btn btn-primary btn-lg btn-block mrgn-tp-sm" role="button"> View on Map </a>
     </div>
@@ -134,7 +134,7 @@ breadcrumbs:
 
 <p>
   <div class="card" style="float:left;margin:10px 20px 0px 0px;">
-    <img src="/assets/img/nhsl_social_fabric.png" width="250" class="img-rounded"/>
+    <img src="../assets/img/nhsl_social_fabric.png" width="250" class="img-rounded"/>
     <div class="card-body">
       <a href="nhsl_social_fabric_map.html" class="btn btn-primary btn-lg btn-block mrgn-tp-sm" role="button"> View on Map </a>
     </div>
